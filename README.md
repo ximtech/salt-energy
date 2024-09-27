@@ -56,7 +56,7 @@ TODO: In progress
 
 Cheap and powerful power bank with quick charge support
 
-<img src="powerbank-ptero/assets/ptero_1.jpg" width="400" alt="ptero_1">
+<img src="powerbank-ptero/assets/ptero_1.jpg" width="600" alt="ptero_1">
 
 ### Specification
 
@@ -138,11 +138,11 @@ All that needs to assembly single device:
 
 ***Note:*** Cut strip with additional 0.5cm at the end, for better fixation melt it a little with soldering iron to the holder case
 
-<img src="powerbank-ptero/assets/strip_soldered.jpg" width="300" alt="nickel_strip_soldered"><br/>
+<img src="powerbank-ptero/assets/strip_soldered.jpg" width="400" alt="nickel_strip_soldered"><br/>
 
 #### 8. Place and screw up the lid
 
-<img src="powerbank-ptero/assets/bottom_lid.jpg" width="300" alt="bottom_lid"><br/>
+<img src="powerbank-ptero/assets/bottom_lid.jpg" width="400" alt="bottom_lid"><br/>
 
 Charge and check the capacity. Then your device is ready
 

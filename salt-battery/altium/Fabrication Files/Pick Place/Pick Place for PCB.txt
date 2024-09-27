@@ -1,0 +1,30 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\Altium\SaltBattery\Altium\.\Fabrication Files\Pick Place\Pick Place for PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29.02.24
+Time:       01:48
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment        Layer    Footprint                  Center-X(mil) Center-Y(mil) Rotation Description                                                                                        
+U3         TPS62A01DRLR   TopLayer TI_SOT-563_DRL             838.583       222.441       180      "2.5-V to 5.5-V input, 1-A high-efficiency step-down converter with forced PWM in SOT-563 package" 
+U2         TP4056         TopLayer SMD_IC_SOT-23-6            307.087       203.819       360      "500mA Linear Li-Ion Battery Charger"                                                              
+U1         XB7608A        TopLayer PCB_-_LEADED_-_XYSEMI_CPC5 590.433       227.607       360      "CPC-5 Battery Management IC"                                                                      
+R7         "3.9 kOhms"    TopLayer RES_0603_1608              305.118       306.890       180      "RES SMD 3.9K OHM 5% 1/10W 0603"                                                                   
+R6         "499 kOhms"    TopLayer RES_0603_1608              835.039       145.669       360      "RES SMD 499K OHM 1% 1/10W 0603"                                                                   
+R5         "150 kOhms"    TopLayer RES_0603_1608              920.244       330.709       180      "RES 150K OHM 0.5% 1/6W 0603"                                                                      
+R4         "100 kOhms"    TopLayer RES_0603_1608              809.055       330.709       360      "RES 100K OHM 5% 1/10W 0603 SMD"                                                                   
+R3         "330 Ohms"     TopLayer RES_0603_1608              188.976       97.512        270      "RES SMD 330 OHM 0.1% 1/10W 0603"                                                                  
+R2         "1 kOhms"      TopLayer RES_0603_1608              492.126       212.598       270      "RES 1K OHM 0.5% 1/10W 0603 SMD"                                                                   
+D1         "Bicolor 1615" TopLayer LED_0603_1615_BICOLOR      143.701       203.788       180      "SMD SMT Light Emitting Diode 1.6*0.8*0.6MM"                                                       
+L1         "1 uH"         TopLayer TAIYO_YUDEN_NR4018         1019.685      199.213       0        "FIXED IND 1UH 650MA 300MOHM SMD"                                                                  
+C6         4.7µF          TopLayer CAP_0805_2012              834.646       59.055        180      "SMT Capacitor"                                                                                    
+C5         "2.2 µF"       TopLayer CAP_0805_2012              301.835       57.838        180      "SMT Capacitor"                                                                                    
+C4         22µF           TopLayer CAP_0805_2012              1181.102      199.213       90       "SMT Capacitor"                                                                                    
+C3         22µF           TopLayer CAP_0805_2012              1015.748      59.055        180      "SMT Capacitor"                                                                                    
+C2         120pF          TopLayer CAP_0603_1608              1038.386      330.709       360      "SMT Capacitor"                                                                                    
+C1         "0.1 µF"       TopLayer CAP_0805_2012              590.236       90.551        180      "SMT Capacitor"                                                                                    

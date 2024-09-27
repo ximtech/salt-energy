@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=BAT- Pin=C5-1
+Removed Pin From Net: NetName=BAT- Pin=IN--1
+Removed Pin From Net: NetName=NetC1_2 Pin=R1-1
+Removed Pin From Net: NetName=BAT+ Pin=R1-2
+Removed Pin From Net: NetName=OUT- Pin=R2-1
+Removed Pin From Net: NetName=BAT- Pin=R7-1
+Removed Pin From Net: NetName=OUT- Pin=U1-6
+Removed Pin From Net: NetName=NetC1_2 Pin=U1-7
+Removed Pin From Net: NetName=BAT- Pin=U2-2
+Removed Member From Class: ClassName=main Member=R1
+Change Component Comment : Designator=U1 Old Comment=DW03D New Comment=XB7608A
+Change component parameters: Designator = "U1"; Footprint = "PCB - LEADED - XYSEMI CPC5"; UniqueID = "\ESZYDVUV"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=OUT- Pin=C5-1
+Added Pin To Net: NetName=OUT- Pin=IN--1
+Added Pin To Net: NetName=NetC1_2 Pin=R2-1
+Added Pin To Net: NetName=BAT+ Pin=R2-2
+Added Pin To Net: NetName=OUT- Pin=R7-1
+Added Pin To Net: NetName=NetC1_2 Pin=U1-1
+Added Pin To Net: NetName=BAT- Pin=U1-2
+Added Pin To Net: NetName=OUT- Pin=U1-4
+Added Pin To Net: NetName=OUT- Pin=U1-5
+Added Pin To Net: NetName=OUT- Pin=U2-2
+Change Net Name : Old Net Name=NetLED1_2 New Net Name=NetD1_2
+Change Net Name : Old Net Name=OUT- New Net Name=CHARGE-

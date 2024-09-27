@@ -1,0 +1,14 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 3 0.0590551 0.3149606 270 N BAT- 2MMx2.5MM ;0=1,1=0.0000
+TOP 0 0.0590551 0.3149606 270 N 11 3 BAT--1
+#
+# CMP 1
+CMP 4 0.0984252 0.0984252 90 N BAT+ 2MMx2.5MM ;0=1,1=0.0000
+TOP 0 0.0590551 0.0787402 90 N 12 6 BAT+-1
+#

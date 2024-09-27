@@ -42,13 +42,15 @@ All project utilize one or many of this batteries
 
 ## Table of Contents
 
-- [Pika AA Battery](#pika-aa-battery)
+- [Salt AA Battery](#salt-aa-battery)
 - [Ptero Power Bank](#ptero-power-bank)
 
 
-## Pika AA Battery
+## Salt AA Battery
 
-TODO: In progress
+Rectangular AA battery, with discharge current up to 2A
+
+
 
 ---
 
@@ -56,7 +58,7 @@ TODO: In progress
 
 Cheap and powerful power bank with quick charge support
 
-<img src="powerbank-ptero/assets/ptero_1.jpg" width="600" alt="ptero_1">
+<img src="ptero-powerbank/assets/ptero_1.jpg" width="600" alt="ptero_1">
 
 ### Specification
 
@@ -67,14 +69,14 @@ Cheap and powerful power bank with quick charge support
 
 Based on the popular power bank charging module:
 
-<img src="powerbank-ptero/assets/pb_pcb_1.jpg" width="250" alt="pb_pcb_1">
-<img src="powerbank-ptero/assets/pb_pcb_2.jpg" width="250" alt="pb_pcb_2">
+<img src="ptero-powerbank/assets/pb_pcb_1.jpg" width="250" alt="pb_pcb_1">
+<img src="ptero-powerbank/assets/pb_pcb_2.jpg" width="250" alt="pb_pcb_2">
 
 Can be found in `Aliexpress` or `Amazon` by number: `H961-U` or by description: `Dual USB 5V 2.4A Micro/Type-C USB Mobile`
 
 ### Prerequisites
 
-<img src="powerbank-ptero/assets/ptero_prereq.jpg" width="300" alt="ptero_prereq">
+<img src="ptero-powerbank/assets/ptero_prereq.jpg" width="300" alt="ptero_prereq">
 
 The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
 All that needs to assembly single device:

@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=J1 NewDesignator=BAT+
+Change Component Designator: OldDesignator=J2 NewDesignator=IN+
+Change Component Designator: OldDesignator=J3 NewDesignator=+
+Change Component Designator: OldDesignator=J4 NewDesignator=BAT-
+Change Component Designator: OldDesignator=J5 NewDesignator=IN-
+Change Component Designator: OldDesignator=J6 NewDesignator=-
+Change Component Designator: OldDesignator=LED1 NewDesignator=D1

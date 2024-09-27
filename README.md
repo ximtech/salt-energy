@@ -50,7 +50,7 @@ All project utilize one or many of this batteries
 
 Rectangular AA battery, with discharge current up to 2A
 
-
+TODO: in progress
 
 ---
 

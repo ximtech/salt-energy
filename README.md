@@ -68,9 +68,6 @@ Cheap and powerful power bank with quick charge support
 Based on the popular power bank charging module:
 
 <img src="powerbank-ptero/assets/pb_pcb_1.jpg" width="250" alt="pb_pcb_1">
-
----
-
 <img src="powerbank-ptero/assets/pb_pcb_2.jpg" width="250" alt="pb_pcb_2">
 
 Can be found in `Aliexpress` or `Amazon` by number: `H961-U` or by description: `Dual USB 5V 2.4A Micro/Type-C USB Mobile`

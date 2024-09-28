@@ -97,51 +97,51 @@ All that needs to assembly single device:
 
 #### 1. Place batteries in holders and solder them in parallel
 
-<img src="powerbank-ptero/assets/pb_asm_bat_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="ptero-powerbank/assets/pb_asm_bat_1.jpg" width="300" alt="batt_asm"><br/>
 
-<img src="powerbank-ptero/assets/pb_asm_bat_2.jpg" width="300" alt="batt_asm"><br/>
+<img src="ptero-powerbank/assets/pb_asm_bat_2.jpg" width="300" alt="batt_asm"><br/>
 ***Note:*** It's better to use copper wire from UTP internet cable to connect batteries
 
-<img src="powerbank-ptero/assets/pb_asm_bat_3.jpg" width="300" alt="batt_asm"><br/>
+<img src="ptero-powerbank/assets/pb_asm_bat_3.jpg" width="300" alt="batt_asm"><br/>
 ***Note:*** Do not forget to isolate contacts as in photo, or as alternative hot glue can be used
 
 #### 2. Set brass inserts to the top lid
 
-<img src="powerbank-ptero/assets/brass_inserts.jpg" width="300" alt="inserts_asm"><br/>
+<img src="ptero-powerbank/assets/brass_inserts.jpg" width="300" alt="inserts_asm"><br/>
 
 #### 3. Place display glass
 
-<img src="powerbank-ptero/assets/glass_install.jpg" width="300" alt="display_asm"><br/>
+<img src="ptero-powerbank/assets/glass_install.jpg" width="300" alt="display_asm"><br/>
 
 ***Note:*** No need of any glue.
 
 #### 4. Insert button to the place
 
-<img src="powerbank-ptero/assets/button_set.jpg" width="300" alt="button_asm"><br/>
+<img src="ptero-powerbank/assets/button_set.jpg" width="300" alt="button_asm"><br/>
 
 #### 5. Place PCB board as follows
 
-<img src="powerbank-ptero/assets/pcb_set.jpg" width="300" alt="pcb_asm"><br/>
-<img src="powerbank-ptero/assets/pcb_set_2.jpg" width="300" alt="pcb_next_asm"><br/>
+<img src="ptero-powerbank/assets/pcb_set.jpg" width="300" alt="pcb_asm"><br/>
+<img src="ptero-powerbank/assets/pcb_set_2.jpg" width="300" alt="pcb_next_asm"><br/>
 
 ***Note:*** Check button by clicking on it several times
 
 #### 6. Place prepared batteries
 
-<img src="powerbank-ptero/assets/batteries_set.jpg" width="300" alt="inserts_asm"><br/>
+<img src="ptero-powerbank/assets/batteries_set.jpg" width="300" alt="inserts_asm"><br/>
 
 #### 7. Solder wires to nickel strip
 
-<img src="powerbank-ptero/assets/strip_1.jpg" width="300" alt="nickel_strip_1"><br/>
-<img src="powerbank-ptero/assets/strip_2.jpg" width="300" alt="nickel_strip_2"><br/>
+<img src="ptero-powerbank/assets/strip_1.jpg" width="300" alt="nickel_strip_1"><br/>
+<img src="ptero-powerbank/assets/strip_2.jpg" width="300" alt="nickel_strip_2"><br/>
 
 ***Note:*** Cut strip with additional 0.5cm at the end, for better fixation melt it a little with soldering iron to the holder case
 
-<img src="powerbank-ptero/assets/strip_soldered.jpg" width="400" alt="nickel_strip_soldered"><br/>
+<img src="ptero-powerbank/assets/strip_soldered.jpg" width="400" alt="nickel_strip_soldered"><br/>
 
 #### 8. Place and screw up the lid
 
-<img src="powerbank-ptero/assets/bottom_lid.jpg" width="400" alt="bottom_lid"><br/>
+<img src="ptero-powerbank/assets/bottom_lid.jpg" width="400" alt="bottom_lid"><br/>
 
 Charge and check the capacity. Then your device is ready
 

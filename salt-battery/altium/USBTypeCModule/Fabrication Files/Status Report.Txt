@@ -1,0 +1,11 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [USBTypeCModule.PrjPcb]
+   Generated File[Bill of Materials-USBTypeCModule.xls]
+   Generated File[Bill of Materials-USBTypeCModule.xls]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 20:56:11 On 28.01.2023

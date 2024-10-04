@@ -1,0 +1,19 @@
+Added Component: Designator=J1(PAD_WITH_HOLE_3X3.5MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2(PAD_WITH_HOLE_3X3.5MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(USB_TYPE_C_6PIN)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5 Pin=J1-1
+Added Pin To Net: NetName=+5 Pin=U1-A9
+Added Pin To Net: NetName=+5 Pin=U1-B9
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=U1-A12
+Added Pin To Net: NetName=GND Pin=U1-B12
+Added Pin To Net: NetName=GND Pin=U1-S
+Added Pin To Net: NetName=GND Pin=U1-S
+Added Pin To Net: NetName=GND Pin=U1-S
+Added Pin To Net: NetName=GND Pin=U1-S
+Added Pin To Net: NetName=GND Pin=U1-S
+Added Net: Name=GND

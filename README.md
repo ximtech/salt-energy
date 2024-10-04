@@ -50,11 +50,11 @@ All project utilize one or many of this batteries
 
 Rechargeable rectangular AA battery, with discharge current up to 2A and quiescent current <25uA
 
-<img src="" width="600" alt="">
+<img src="salt-battery/assets/salt-battery.jpg" width="400" alt="salt-battery">
 
 ### Specification
 
-- Size: mm x mm x mm
+- Size: 50mm x 14mm x 14mm
 - Capacity: 400 mAh
 - Battery count: 1
 - Battery type: [Flat battery](#1-flat-battery)

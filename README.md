@@ -86,7 +86,7 @@ All that needs to assembly single device:
 - 2x - Battery contacts (***Only positive contact required***). Can be found in `Aliexpress`, `Ebay` or `Amazon` by description: `Battery AA AAA Battery Positive to Negative Spring Plate Set`
     - Material: Metal 
     - Fit for: AA, AAA Batteries
-    - Length: 9mm（0.35in, Wide: 8mm（0.31in）
+    - Length: 9mm（0.35in), Wide: 8mm（0.31in）
 - 1x -`main-board` -> ***Soldered***
 - 1x -`usb-board` -> ***Soldered***
 - 1x -`battery_aa_case.STL` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***

@@ -1,0 +1,50 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\Pick Place\Pick Place for PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       11.11.24
+Time:       16:32
+Revision:   6247c12c3dbc59710277a489ae1367d31f827ee1
+Variant:    No variations
+Units used: mm
+
+Designator Comment            Layer    Footprint                  Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                                
+R5         "9.1 kOhms"        TopLayer YAGEO_RES_0603_1608        6.8300       36.7000      270      "RES SMD 9.1K OHM 0.1% 1/10W 0603"                                                                                                         
+R4         "1 kOhms"          TopLayer YAGEO_RES_0603_1608        3.9000       63.6500      270      "RES 1K OHM 1% 1/10W 0603"                                                                                                                 
+R3         "5.1 kOhms"        TopLayer YAGEO_RES_0603_1608        11.3000      58.6712      180      "RES 5.1K OHM 5% 1/10W 0603"                                                                                                               
+R2         "5.1 kOhms"        TopLayer YAGEO_RES_0603_1608        8.0000       58.6712      0        "RES 5.1K OHM 5% 1/10W 0603"                                                                                                               
+R1         "1 kOhms"          TopLayer YAGEO_RES_0603_1608        14.6500      36.5000      360      "RES 1K OHM 1% 1/10W 0603"                                                                                                                 
+U4         CN5711             TopLayer ALPHAOMEGA_SO8_SOP-8L      1.4300       39.5500      180      "Current regulation integrated circuit
+operating from an input voltage of 2.8V to 6V, the
+constant output current can be set up to 1.5A" 
+D8         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        -2.9166      58.9838      315      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D7         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        22.5834      59.2545      225      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+U3         TP4056             TopLayer SOP127P600X175-9N          9.8300       54.4641      180      "Complete single cell Li-Ion battery with a constant current / constant voltage linear charger"                                            
+U2         XB7608A            TopLayer PCB_-_LEADED_-_XYSEMI_CPC5 14.5213      39.3551      90       "CPC-5 Battery Management IC"                                                                                                              
+U1         "USB Type-C 6pin"  TopLayer USB_TYPE_C_6PIN            10.0000      63.0450      180      "Power only USB Type-C 3.0"                                                                                                                
+SW1        431256031716       TopLayer 4312560317x6               10.5000      4.6250       360      "WS-TATU THT Tact Switch 6x6mm Right Angled Type with ground terminal, SPST-NO, 12VDC, 50mA, 160g"                                         
+R12        "10 kOhms"         TopLayer YAGEO_RES_0603_1608        8.0000       26.1813      90       "RES 10K OHM 1% 1/10W 0603"                                                                                                                
+R11        "100 kOhms"        TopLayer YAGEO_RES_0603_1608        -0.5067      31.2375      360      "RES 100K OHM 0.1% 1/10W 0603"                                                                                                             
+R10        "10 kOhms"         TopLayer YAGEO_RES_0603_1608        -0.5000      29.7411      180      "RES 10K OHM 1% 1/10W 0603"                                                                                                                
+R9         "10 kOhms"         TopLayer YAGEO_RES_0603_1608        -0.5067      33.2193      180      "RES 10K OHM 1% 1/10W 0603"                                                                                                                
+R8         "1.2 kOhms"        TopLayer YAGEO_RES_0603_1608        14.6746      54.6459      270      "RES SMD 1.2K OHM 1% 1/10W 0603"                                                                                                           
+R7         "5.1 kOhms"        TopLayer YAGEO_RES_0603_1608        -0.2855      35.4321      360      "RES 5.1K OHM 5% 1/10W 0603"                                                                                                               
+R6         "10 kOhms"         TopLayer YAGEO_RES_0603_1608        3.3003       35.4321      360      "RES 10K OHM 1% 1/10W 0603"                                                                                                                
+P1         "Header 3X2"       TopLayer MY_2x03                    15.9254      24.4754      270      "Header, 6-Pin, Dual row"                                                                                                                  
+LED1       "Bicolor 1615"     TopLayer LED_0603_1615_BICOLOR      1.3250       63.7500      90       "SMD SMT Light Emitting Diode 1.6*0.8*0.6MM"                                                                                               
+IC2        ATTINY13A-SU       TopLayer SOIC127P798X216-8N         6.9500       31.3143      360      "AVR AVRA® ATtiny Microcontroller IC 8-Bit 20MHz 1KB (512 x 16) FLASH 8-SOIC"                                                              
+D6         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        37.3400      44.5000      180      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D5         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        37.3400      23.7850      180      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D4         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        21.6666      7.0834       135      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D3         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        -2.1222      6.8127       45       "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D2         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        -16.6600     23.6850      0        "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D1         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110        -16.6600     44.4000      360      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+C7         "100 µF"           TopLayer CAP_POL_1411_3528          3.9600       26.2447      180      "CAP TANT 100UF 20% 6.3V 1411"                                                                                                             
+C6         "100 µF"           TopLayer CAP_POL_1411_3528          9.8300       37.9500      270      "CAP TANT 100UF 20% 6.3V 1411"                                                                                                             
+C5         "100 µF"           TopLayer CAP_POL_1411_3528          13.8000      31.8193      270      "CAP TANT 100UF 20% 6.3V 1411"                                                                                                             
+C4         10µF               TopLayer CAP_0805_2012              19.0000      32.3904      90       "CAP CER 10UF 6.3V X5R 0805"                                                                                                               
+C3         "0.1 µF"           TopLayer CAP_0805_2012              16.7000      32.3904      90       "CAP CER 0.1UF 50V X7R 0805"                                                                                                               
+C2         10µF               TopLayer CAP_0805_2012              4.1503       55.5750      90       "CAP CER 10UF 6.3V X5R 0805"                                                                                                               
+C1         "0.1 µF"           TopLayer CAP_0805_2012              18.1178      39.3163      270      "CAP CER 0.1UF 50V X7R 0805"                                                                                                               

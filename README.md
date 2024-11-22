@@ -18,7 +18,7 @@ Each device contains `li-ion` battery that in most cases can be categorized as f
 
 <img src="assets/battery_a.jpg" width="200" alt="battery_a">
 
-- Cell Model: unknown
+- Cell Model: 801437
 - Size: 80mm x 14mm x 37mm
 - Li-ion 3.7V 400mAh
 
@@ -44,6 +44,7 @@ All project utilize one or many of this batteries
 
 - [Salt AA Battery](#salt-aa-battery)
 - [Ptero Power Bank](#ptero-power-bank)
+- [Moskito Power Bank](#moskito-power-bank)
 
 
 ## Salt AA Battery
@@ -96,11 +97,11 @@ All that needs to assembly single device:
 
 ### Assembly
 
-#### 1. Prepare Battery Contacts And Solder USB Wires
+#### 1. Prepare battery contacts and solder USB wires
 
 <img src="salt-battery/assets/prepare_usb_poles.jpg" width="300" alt="prepare_usb_poles">
 
-#### 2. Solder Main PCB To Battery
+#### 2. Solder main PCB to battery
 
 <img src="salt-battery/assets/main_solder.jpg" width="300" alt="main_solder">
 
@@ -108,37 +109,37 @@ All that needs to assembly single device:
 
 <img src="salt-battery/assets/main_isolator.jpg" width="300" alt="main_isolator">
 
-#### 3. Set USB PCB To The Case
+#### 3. Set USB PCB to the case
 
 <img src="salt-battery/assets/usb_insert_1.jpg" width="300" alt="usb_insert_1"><br/>
 <img src="salt-battery/assets/usb_insert_2.jpg" width="300" alt="usb_insert_2"><br/>
 
-#### 4. Insert Battery And Board To The Case
+#### 4. Insert battery and board to the case
 
 - <img src="salt-battery/assets/pcb_insert_1.jpg" width="300" alt="pcb_insert_1">
 - <img src="salt-battery/assets/pcb_insert_2.jpg" width="300" alt="pcb_insert_2">
 
-#### 5. Glue Up Positive And Negative Contacts
+#### 5. Glue up positive and negative contacts
 
 - <img src="salt-battery/assets/pole_glue_1.jpg" width="300" alt="pole_glue_1">
 - <img src="salt-battery/assets/pole_glue_2.jpg" width="300" alt="pole_glue_2">
 - <img src="salt-battery/assets/pole_glue_3.jpg" width="300" alt="pole_glue_3">
 
-#### 6. Solder Positive, Negative And USB Contacts To Battery PCB
+#### 6. Solder positive, negative and USB contacts to battery PCB
 
 <img src="salt-battery/assets/conn_soldering.jpg" width="300" alt="conn_soldering">
 
-#### 7. Check That Charger Works And Battery Output 1.5V
+#### 7. Check that charger works and battery output 1.5V
 
 - <img src="salt-battery/assets/test.jpg" width="300" alt="test">
 - <img src="salt-battery/assets/charge.jpg" width="300" alt="charge">
 
-#### 8. Glue Up Battery Lid
+#### 8. Glue up battery lid
 
 - <img src="salt-battery/assets/glue_1.jpg" width="300" alt="glue_1">
 - <img src="salt-battery/assets/glue_2.jpg" width="300" alt="glue_2">
 
-#### 9. Fully Charge Battery
+#### 9. Fully charge battery
 
 ---
 
@@ -232,5 +233,119 @@ All that needs to assembly single device:
 <img src="ptero-powerbank/assets/bottom_lid.jpg" width="400" alt="bottom_lid"><br/>
 
 Charge and check the capacity. Then your device is ready
+
+---
+
+## Moskito Power Bank
+
+Pocket-size power bank with build in flashlight
+
+<img src="moskito-powerbank/assets/moskit_1.jpg" width="600" alt="moskit_1">
+
+### Specification
+
+#### Small
+
+- Size: 96mm x 37mm x 23mm
+- Capacity: 2000 mAh
+- Battery count: 5
+- Battery type: [Round small battery](#3-round-small-battery)
+
+#### Large
+
+- Size: 97mm x 47mm x 23mm
+- Capacity: 2750 mAh
+- Battery count: 5
+- Battery type: [Round big battery](#2-round-big-battery)
+
+#### Power Bank PCB
+
+The custom designed board is based on cheap power bank IC `TP4333`.
+
+<img src="moskito-powerbank/assets/pcb_1.jpg" width="250" alt="pcb_3d">
+
+#### Flashlight PCB
+
+And flashlight board contains powerful LED and driver IC `CN5711`.
+
+<img src="moskito-powerbank/assets/pcb_2.jpg" width="250" alt="pcb_3d">
+
+#### JLCPCB quote example
+
+<img src="moskito-powerbank/assets/jlcpcb_quote_1.jpg" width="250" alt="pcb_quote_1"><br/>
+<img src="moskito-powerbank/assets/jlcpcb_quote_2.jpg" width="250" alt="pcb_quote_2"><br/>
+
+***Note:*** Additional information, fabrication and BOM can be found in `altium` directory.
+
+### Prerequisites
+
+<img src="moskito-powerbank/assets/moskit_prereq.jpg" width="300" alt="moskito_prereq">
+
+The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
+All that needs to assembly single device:
+- 5x - Batteries (see [Specification](#specification))
+- 1x - Power Bank PCB
+- 1x - Flashlight PCB
+- 1x -`pb_body_sm.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 50%+, Supports: No, Filament material: PLA***
+- 2x -`pb_battery_holder_5s.STL` -> ***Resolution: 0.2, Walls: 1, Infill: 100%, Supports: No, Filament material: PLA***
+- 1x -`pb_button_sm.STL` -> ***Resolution: 0.2, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***
+- 1x -`pb_top_lid_sm.STL` -> ***Resolution: 0.2, Walls: 2, Infill: 25%, Supports: No, Filament material: Transparent PLA***  
+
+***Additional:*** Some wires and epoxy or adhesive(B-7000) glue required
+
+***Note:*** For larger power bank uses same PCBs and files with `_lg` postfix.
+
+### Assembly
+
+#### 1. Place batteries in holder and solder them in parallel
+
+<img src="moskito-powerbank/assets/battery_solder_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/battery_solder_2.jpg" width="300" alt="batt_asm"><br/>
+
+***Note:*** Copper wire from UTP internet cable is recommended to connect batteries
+
+#### 2. Set flashlight PCB and solder wires
+
+<img src="moskito-powerbank/assets/battery_solder_3.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/battery_solder_4.jpg" width="300" alt="batt_asm"><br/>
+
+Connect signal `EN` wire to battery `+` to check that flashlight works
+<img src="moskito-powerbank/assets/battery_solder_5.jpg" width="300" alt="batt_asm"><br/>
+
+#### 3. Next place power bank PCB as follows
+
+<img src="moskito-powerbank/assets/pb_pcb_place_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/pb_pcb_place_2.jpg" width="300" alt="batt_asm"><br/>
+
+#### 4. Place battery module
+
+<img src="moskito-powerbank/assets/battery_place_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/battery_place_2.jpg" width="300" alt="batt_asm"><br/>
+
+***Note:*** Battery module should tightly fit
+
+#### 5. Solder connection wires
+
+<img src="moskito-powerbank/assets/wires_solder.jpg" width="300" alt="batt_asm"><br/>
+
+#### 6. Check that power bank works as expected
+
+- Button short press and power bank should be on
+  - <img src="moskito-powerbank/assets/wires_solder.jpg" width="300" alt="batt_asm"><br/>
+- Long press and flashlight should be on/off
+- Connect to charger and green LED should blink
+- Check output voltage: `5V` and load current: `0.8A - 1A`
+
+#### 7. Glue up power bank lid with button
+
+<img src="moskito-powerbank/assets/lid_glue_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/lid_glue_2.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/lid_glue_3.jpg" width="300" alt="batt_asm"><br/>
+
+#### 8. Optionally, set keychain
+
+<img src="moskito-powerbank/assets/pb_keychain.jpg" width="300" alt="batt_asm"><br/>
+
+#### 9. Fully charge power bank
 
 ---

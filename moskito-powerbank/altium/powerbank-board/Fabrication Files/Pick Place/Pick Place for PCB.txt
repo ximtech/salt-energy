@@ -1,0 +1,25 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\salt-energy\moskito-powerbank\altium\powerbank-board\.\Fabrication Files\Pick Place\Pick Place for PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       16.10.24
+Time:       23:50
+Revision:   6247c12c3dbc59710277a489ae1367d31f827ee1
+Variant:    No variations
+Units used: mm
+
+Designator Comment           Layer       Footprint                             Center-X(mm) Center-Y(mm) Rotation Description                                   
+IC1        TP4333            TopLayer    ALPHAOMEGA_SO8_SOP-8L                 12.1540      11.6540      360      "1A Synchronous mobile power solution 8-SOIC" 
+"USB A"    "USB A"           BottomLayer PCB_-_CONNECTOR_-_USB_-_YOURCEEAF10.0 10.5000      18.1188      360      ""                                            
+S1         EVQ-P7A01P        BottomLayer EVQ-P7A01P                            10.5000      6.0000       360      "SWITCH TACTILE SPST-NO 0.05A 12V"            
+R2         "1.5 Ohms"        TopLayer    RES_0603_1608                         18.7500      10.5000      90       "CPF 0603 1R5 0.1% 25PPM 1K RL"               
+R1         "10 kOhms"        TopLayer    YAGEO_RES_0603_1608                   12.2500      7.6538       180      "RES 10K OHM 1% 1/10W 0603"                   
+LED1       "Bicolor 1615"    BottomLayer LED_0603_1615_BICOLOR                 10.5000      9.7500       360      "SMD SMT Light Emitting Diode 1.6*0.8*0.6MM"  
+L1         "1.5 uH"          TopLayer    CD54                                  4.0000       12.5000      270      "CD54 SMT Inductor"                           
+"USB C"    "USB Type-C 6pin" TopLayer    USB_TYPE_C_6PIN                       10.5301      19.9550      180      "Power only USB Type-C 3.0"                   
+C4         2.2µF             TopLayer    CAP_0805_2012                         17.7124      7.4916       360      "CAP CER 2.2UF 16V X5R 0805"                  
+C3         10µF              TopLayer    CAP_0805_2012                         3.5000       16.9000      360      "CAP CER 10UF 10V X5R 0805"                   
+C2         10µF              BottomLayer CAP_0805_2012                         2.6000       12.0000      90       "CAP CER 10UF 10V X5R 0805"                   
+C1         10µF              BottomLayer CAP_0805_2012                         4.9000       12.0000      90       "CAP CER 10UF 10V X5R 0805"                   

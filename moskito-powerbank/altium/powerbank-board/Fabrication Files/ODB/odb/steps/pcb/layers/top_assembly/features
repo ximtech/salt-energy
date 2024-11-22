@@ -1,0 +1,15 @@
+#Layer_Color=32768
+#
+#Feature symbol names
+#
+$0 r1.9685
+
+#
+#Feature attribute names
+#
+
+#
+#Layer features
+#
+L 0.1377954 0.492126 0.1771654 0.492126 0 P 0
+L 0.1574804 0.472441 0.1574804 0.511811 0 P 0

@@ -1,0 +1,23 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\salt-energy\moskito-powerbank\altium\flashlight-board\.\Fabrication Files\Pick Place\Pick Place for PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       30.10.24
+Time:       00:34
+Revision:   6247c12c3dbc59710277a489ae1367d31f827ee1
+Variant:    No variations
+Units used: mm
+
+Designator Comment            Layer    Footprint             Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                                
+C2         10µF               TopLayer CAP_0805_2012         16.6000      9.8000       270      "CAP CER 10UF 6.3V X5R 0805"                                                                                                               
+C1         10µF               TopLayer CAP_0805_2012         14.4000      9.8000       270      "CAP CER 10UF 6.3V X5R 0805"                                                                                                               
+R3         "9.1 kOhms"        TopLayer RES_0603_1608         6.8000       10.0000      270      "RES 9.1K OHM 1% 1/10W 0603"                                                                                                               
+R2         "20 kOhms"         TopLayer RES_0603_1608         5.1000       10.0000      270      "RES 20K OHM 1% 1/10W 0603"                                                                                                                
+R1         "5.1 kOhms"        TopLayer RES_0603_1608         7.7500       4.5000       180      "RES 5.1K OHM 0.1% 1/10W 0603"                                                                                                             
+IC1        CN5711             TopLayer ALPHAOMEGA_SO8_SOP-8L 10.5000      10.0000      90       "Current regulation integrated circuit
+operating from an input voltage of 2.8V to 6V, the
+constant output current can be set up to 1.5A" 
+D2         MP-3030-1100-56-95 TopLayer LUMINUS_MP-3030-110   10.4350      18.7250      360      "LED MID PWR 5600K 95CRI 3030"                                                                                                             
+D1         1N4148WS-HG3-08    TopLayer SOD323                5.1000       6.3875       90       "SWITCHING DIODE GENPURP SOD323-H"                                                                                                         

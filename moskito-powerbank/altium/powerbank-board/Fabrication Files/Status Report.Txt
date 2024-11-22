@@ -1,0 +1,11 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Moskito_Powerbank.PrjPcb]
+   Generated File[Bill of Materials-Moskito_Powerbank.xls]
+   Generated File[Bill of Materials-Moskito_Powerbank.xls]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 23:51:39 On 16.10.2024

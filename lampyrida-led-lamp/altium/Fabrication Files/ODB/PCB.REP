@@ -1,0 +1,248 @@
+*************************************************************
+FileName = PCB.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\matrix\matrix
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\profile
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_designator\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_designator\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_6\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_6\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_7\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_7\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_8\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_8\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_9\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_9\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_10\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_10\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_component_outline\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_component_outline\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_designator\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_designator\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_component_outline\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_component_outline\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\tools
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\rout\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\layers\rout\tools
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect51.1811x74.803_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect15.748x74.803_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect7.874x78.7402_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect43.3071x74.8032_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect7.874x78.7402_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect43.3071x74.8032_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect7.874x78.7402_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect43.3071x74.8032_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect7.874x78.7402_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect43.3071x74.8032_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect27.559x98.4252_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect66.9291x98.4252_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect27.559x98.4252_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect66.9291x98.4252_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect27.559x98.4252_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect66.9291x98.4252_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect27.559x98.4252_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect66.9291x98.4252_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect17.7166x23.622_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect17.7166x23.622_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect17.7166x23.622_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect17.7166x23.622_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect23.622x94.4882_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect62.9921x94.4882_135\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_45\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_315\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_225\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\lampyrida-led-lamp\altium\.\Fabrication Files\ODB\odb\symbols\rect13.7796x19.685_135\features
+

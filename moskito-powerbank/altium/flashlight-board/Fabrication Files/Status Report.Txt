@@ -1,0 +1,11 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [flashlight-board.PrjPcb]
+   Generated File[Bill of Materials-flashlight-board.xls]
+   Generated File[Bill of Materials-flashlight-board.xls]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 0:36:27 On 30.10.2024

@@ -1,7 +1,4 @@
 /.idea/
-/salt-battery/altium/main-board/History/
-/salt-battery/altium/main-board/__Previews/
-/salt-battery/altium/main-board/Project Logs for SaltBattery/
-/salt-battery/altium/USBTypeCModule/History/
-/salt-battery/altium/USBTypeCModule/__Previews/
-/salt-battery/altium/USBTypeCModule/Project Logs for SaltBattery/
+History/
+__Previews/
+*Project Logs for */

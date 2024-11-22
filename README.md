@@ -260,13 +260,13 @@ Pocket-size power bank with build in flashlight
 
 #### Power Bank PCB
 
-The custom designed board is based on cheap power bank IC `TP4333`.
+The custom designed board is based on a cheap power bank IC `TP4333`.
 
 <img src="moskito-powerbank/assets/pcb_1.jpg" width="250" alt="pcb_3d">
 
 #### Flashlight PCB
 
-And flashlight board contains powerful LED and driver IC `CN5711`.
+Flashlight board contains powerful LED and driver IC `CN5711`.
 
 <img src="moskito-powerbank/assets/pcb_2.jpg" width="250" alt="pcb_3d">
 
@@ -283,7 +283,7 @@ And flashlight board contains powerful LED and driver IC `CN5711`.
 
 The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
 All that needs to assembly single device:
-- 5x - Batteries (see [Specification](#specification))
+- 5x - Batteries (see `Specification`)
 - 1x - Power Bank PCB
 - 1x - Flashlight PCB
 - 1x -`pb_body_sm.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 50%+, Supports: No, Filament material: PLA***
@@ -309,13 +309,13 @@ All that needs to assembly single device:
 <img src="moskito-powerbank/assets/battery_solder_3.jpg" width="300" alt="batt_asm"><br/>
 <img src="moskito-powerbank/assets/battery_solder_4.jpg" width="300" alt="batt_asm"><br/>
 
-Connect signal `EN` wire to battery `+` to check that flashlight works
+Connect signal `EN` wire to battery `+` to check that flashlight works<br/>
 <img src="moskito-powerbank/assets/battery_solder_5.jpg" width="300" alt="batt_asm"><br/>
 
 #### 3. Next place power bank PCB as follows
 
-<img src="moskito-powerbank/assets/pb_pcb_place_1.jpg" width="300" alt="batt_asm"><br/>
-<img src="moskito-powerbank/assets/pb_pcb_place_2.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/pcb_place_1.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/pcb_place_2.jpg" width="300" alt="batt_asm"><br/>
 
 #### 4. Place battery module
 
@@ -326,7 +326,7 @@ Connect signal `EN` wire to battery `+` to check that flashlight works
 
 #### 5. Solder connection wires
 
-<img src="moskito-powerbank/assets/wires_solder.jpg" width="300" alt="batt_asm"><br/>
+<img src="moskito-powerbank/assets/check_device.jpg" width="300" alt="batt_asm"><br/>
 
 #### 6. Check that power bank works as expected
 

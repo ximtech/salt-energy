@@ -330,10 +330,10 @@ Connect signal `EN` wire to battery `+` to check that flashlight works<br/>
 
 #### 6. Check that power bank works as expected
 
-- Button short press and power bank should be on
+- Short button press and power bank should be enabled:
   - <img src="moskito-powerbank/assets/check_device.jpg" width="300" alt="batt_asm"><br/>
-- Long press and flashlight should be on/off
-- Connect to charger and green LED should blink
+- Long press and flashlight should be on or off
+- Connect device to the charger and green LED should blink
 - Check output voltage: `5V` and load current: `0.8A - 1A`
 
 #### 7. Glue up power bank lid with button

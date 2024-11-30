@@ -107,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=PCB - PAD WITH HOLE - 3X3.5MM.PcbLib
+DocumentPath=PCB - PAD WITH HOLE - 2X3MM.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -124,7 +124,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QECOBJSM
 
 [Document6]
-DocumentPath=SCH - PAD WITH HOLE - 3X3.5MM.SchLib
+DocumentPath=SCH - PAD WITH HOLE - 2X3MM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,271 +158,267 @@ GenerateClassCluster=0
 DocumentUniqueId=NYESNCGG
 
 [GeneratedDocument1]
-DocumentPath=.\Fabrication Files\BOM\Bill of Materials-USBTypeCModule.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Fabrication Files\BOM\Bill of Materials-USBTypeCModule.xls
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Fabrication Files\NC Drill\Board-RoundHoles.TXT
+DItemRevisionGUID=
+
 [GeneratedDocument3]
-DocumentPath=.\Fabrication Files\NC Drill\Board-RoundHoles.TXT
+DocumentPath=Fabrication Files\NC Drill\Board-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Fabrication Files\NC Drill\Board-SlotHoles.TXT
+DocumentPath=Fabrication Files\NC Drill\Board.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Fabrication Files\NC Drill\Board.DRL
+DocumentPath=Fabrication Files\NC Drill\Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Fabrication Files\NC Drill\Board.DRR
+DocumentPath=Fabrication Files\Gerber\Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Fabrication Files\Gerber\Board.EXTREP
+DocumentPath=Fabrication Files\Gerber\Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Fabrication Files\Gerber\Board.GBL
+DocumentPath=Fabrication Files\Gerber\Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Fabrication Files\Gerber\Board.GBO
+DocumentPath=Fabrication Files\Gerber\Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Fabrication Files\Gerber\Board.GBS
+DocumentPath=Fabrication Files\Gerber\Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Fabrication Files\Gerber\Board.GD1
+DocumentPath=Fabrication Files\Gerber\Board.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Fabrication Files\Gerber\Board.GKO
+DocumentPath=Fabrication Files\Gerber\Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM1
+DocumentPath=Fabrication Files\Gerber\Board.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM2
+DocumentPath=Fabrication Files\Gerber\Board.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM3
+DocumentPath=Fabrication Files\Gerber\Board.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM13
+DocumentPath=Fabrication Files\Gerber\Board.GM14
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM14
+DocumentPath=Fabrication Files\Gerber\Board.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM15
+DocumentPath=Fabrication Files\Gerber\Board.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM16
+DocumentPath=Fabrication Files\Gerber\Board.GM32767
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Fabrication Files\Gerber\Board.GM32767
+DocumentPath=Fabrication Files\Gerber\Board.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Fabrication Files\Gerber\Board.GPB
+DocumentPath=Fabrication Files\Gerber\Board.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\Fabrication Files\Gerber\Board.GPT
+DocumentPath=Fabrication Files\Gerber\Board.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=.\Fabrication Files\Gerber\Board.GTL
+DocumentPath=Fabrication Files\Gerber\Board.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=.\Fabrication Files\Gerber\Board.GTO
+DocumentPath=Fabrication Files\Gerber\Board.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=.\Fabrication Files\Gerber\Board.GTS
+DocumentPath=Fabrication Files\NC Drill\Board.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=.\Fabrication Files\NC Drill\Board.LDP
+DocumentPath=Fabrication Files\Gerber\Board.REP
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=.\Fabrication Files\Gerber\Board.REP
+DocumentPath=Fabrication Files\ODB\Board.REP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=.\Fabrication Files\ODB\Board.REP
+DocumentPath=Fabrication Files\Gerber\Board.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=.\Fabrication Files\Gerber\Board.RUL
+DocumentPath=Fabrication Files\ExportSTEP\Board.step
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=.\Fabrication Files\ExportSTEP\Board.step
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument33]
 DocumentPath=Project Outputs for USBTypeCModule\Design Rule Check - Board.html
 DItemRevisionGUID=
 
+[GeneratedDocument33]
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\features
+DItemRevisionGUID=
+
 [GeneratedDocument34]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_4\features
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_4\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_5\features
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_5\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_6\features
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_6\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_7\features
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_7\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_8\features
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_8\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_9\features
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_9\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_10\features
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_10\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_11\features
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_11\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_12\features
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_12\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\features
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=Fabrication Files\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=.\Fabrication Files\ODB\odb\matrix\matrix
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Fabrication Files\Pick Place\Pick Place for Board.csv
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=.\Fabrication Files\Pick Place\Pick Place for Board.csv
+DocumentPath=Fabrication Files\Pick Place\Pick Place for Board.txt
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=.\Fabrication Files\Pick Place\Pick Place for Board.txt
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\profile
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
 [GeneratedDocument66]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\tools
+DocumentPath=Fabrication Files\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -544,7 +540,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Samsung ML-2160 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

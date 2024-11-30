@@ -1,0 +1,16 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\salt-energy\salt-battery\altium\USBTypeCModule\.\Fabrication Files\Pick Place\Pick Place for PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       30.11.24
+Time:       12:48
+Revision:   7c88473249a4554c186d4d99247ba030fac18108
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"R2","5.1 kOhms","TopLayer","YAGEO_RES_0603_1608","334.646","255.905","180","RES 5.1K OHM 5% 1/10W 0603"
+"R1","5.1 kOhms","TopLayer","YAGEO_RES_0603_1608","334.646","196.850","180","RES 5.1K OHM 5% 1/10W 0603"
+"U1","USB Type-C 6pin","TopLayer","USB_TYPE_C_6PIN","143.504","229.134","270","Power only USB Type-C 3.0"

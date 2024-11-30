@@ -7,7 +7,7 @@ G04 Layer_Color=255*
 G70*
 G01*
 G75*
-%ADD47O,0.03937X0.06299*%
+%ADD48O,0.03937X0.06299*%
 G04:AMPARAMS|DCode=76|XSize=98.43mil|YSize=137.8mil|CornerRadius=49.21mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=0.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|*
 %AMROUNDEDRECTD76*
 21,1,0.09843,0.03937,0,0,0.0*
@@ -25,7 +25,7 @@ G04:AMPARAMS|DCode=77|XSize=60mil|YSize=70mil|CornerRadius=0mil|HoleSize=0mil|Us
 %ADD77OCTAGOND77*%
 
 %ADD78C,0.05906*%
-D47*
+D48*
 X56378Y241299D02*
 D03*
 X22362D02*

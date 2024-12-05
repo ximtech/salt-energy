@@ -372,10 +372,10 @@ The custom designed board is based on MCU (`Attiny13`), LED driver (`CN5711`) an
 
 #### JLCPCB quote example
 
-<img src="lampyrida-led-lamp/assets/jlcpcb_order" width="250" alt="pcb_quote"><br/>
+<img src="lampyrida-led-lamp/assets/jlcpcb_order.jpg" width="250" alt="pcb_quote"><br/>
 
-***Note:*** Additional information, fabrication and BOM can be found in `altium` directory.
-***Note:*** Firmware can be found in `attiny13-pwm-light` directory
+- ***Note:*** Additional information, fabrication and BOM can be found in `altium` directory.
+- ***Note:*** Firmware can be found in `attiny13-pwm-light` directory
 
 ### Prerequisites
 
@@ -403,7 +403,7 @@ All that needs to assembly a single device:
 #### 2. Place batteries in holder and solder them in parallel
 
 <img src="lampyrida-led-lamp/assets/batteries_unsoldered.jpg" width="300" alt="batt_1"><br/>
-<img src="lampyrida-led-lamp/assets/batteries_soldered.jpg" width="300" alt="batt_2"><br/>
+<img src="lampyrida-led-lamp/assets/battery_soldered.jpg" width="300" alt="batt_2"><br/>
 
 ***Note:*** Copper wire from UTP internet cable is recommended to connect batteries
 

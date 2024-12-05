@@ -45,6 +45,7 @@ All project utilize one or many of this batteries
 - [Salt AA Battery](#salt-aa-battery)
 - [Ptero Power Bank](#ptero-power-bank)
 - [Moskito Power Bank](#moskito-power-bank)
+- [Lampyrida LED Lamp](#lampyrida-led-lamp)
 
 
 ## Salt AA Battery
@@ -82,7 +83,7 @@ The heart of this battery is custom designed board with charger(`TP4057`), prote
 <img src="salt-battery/assets/prereq.jpg" width="300" alt="battery_prereq">
 
 The project contains `solidworks` source models and `stl` directory with all required models for 3D printing.
-All that needs to assembly single device:
+All that needs to assembly a single device:
 - 1x - Battery (see [Specification](#specification))
 - 2x - Battery contacts (***Only positive contact required***). Can be found in `Aliexpress`, `Ebay` or `Amazon` by description: `Battery AA AAA Battery Positive to Negative Spring Plate Set`
     - Material: Metal 
@@ -168,7 +169,7 @@ Can be found in `Aliexpress` or `Amazon` by number: `H961-U` or by description: 
 <img src="ptero-powerbank/assets/ptero_prereq.jpg" width="300" alt="ptero_prereq">
 
 The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
-All that needs to assembly single device:
+All that needs to assembly a single device:
 - 23x - Batteries (see [Specification](#specification))
 - 1x - Power Bank PCB
 - 6x - M3 bolts 10-14mm
@@ -282,7 +283,7 @@ Flashlight board contains powerful LED and driver IC `CN5711`.
 <img src="moskito-powerbank/assets/moskit_prereq.jpg" width="300" alt="moskito_prereq">
 
 The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
-All that needs to assembly single device:
+All that needs to assembly a single device:
 - 5x - Batteries (see `Specification`)
 - 1x - Power Bank PCB
 - 1x - Flashlight PCB
@@ -347,5 +348,90 @@ Connect signal `EN` wire to battery `+` to check that flashlight works<br/>
 <img src="moskito-powerbank/assets/pb_keychain.jpg" width="300" alt="batt_asm"><br/>
 
 #### 9. Fully charge power bank
+
+---
+
+## Lampyrida led lamp
+
+Small and portable LED lamp with dimming feature
+
+<img src="lampyrida-led-lamp/assets/lamp_view.jpg" width="600" alt="lampyrida_1">
+
+### Specification
+
+- Size: 60mm x 78mm
+- Capacity: 1600 mAh
+- Battery count: 4
+- Battery type: [Round small battery](#3-round-small-battery)
+
+#### LED lamp PCB
+
+The custom designed board is based on MCU (`Attiny13`), LED driver (`CN5711`) and charger (`TP4056`).
+
+<img src="lampyrida-led-lamp/assets/lamp_pcb.jpg" width="250" alt="pcb_3d">
+
+#### JLCPCB quote example
+
+<img src="lampyrida-led-lamp/assets/jlcpcb_order" width="250" alt="pcb_quote"><br/>
+
+***Note:*** Additional information, fabrication and BOM can be found in `altium` directory.
+***Note:*** Firmware can be found in `attiny13-pwm-light` directory
+
+### Prerequisites
+
+<img src="lampyrida-led-lamp/assets/prereq.jpg" width="300" alt="lampyrida_prereq">
+
+The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
+All that needs to assembly a single device:
+- 4x - Batteries (see `Specification`)
+- 1x - Led lamp PCB (soldered and programmed)
+- 4x - M3 bolts 8-10mm
+- 4x - M3 brass inserts (5-6mm x 4.2mm)
+- 1x -`lamp_body.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 25%-50%, Supports: No, Filament material: PLA***
+- 1x -`lamp_battery_holder.STL` -> ***Resolution: 0.2, Walls: 1, Infill: 25%, Supports: No, Filament material: PLA***
+- 1x -`lamp_button.STL` -> ***Resolution: 0.2, Walls: 1, Infill: 100%, Supports: No, Filament material: PLA***
+- 1x -`lamp_reflector.STL` -> ***Resolution: 0.2, Walls: 2, Infill: 10%-15%, Supports: No, Filament material: Transparent PLA***
+
+***Additional:*** Bunch of wires to connect batteries
+
+### Assembly
+
+#### 1. Set brass inserts to the reflector
+
+<img src="lampyrida-led-lamp/assets/lamp_refl_inserts.jpg" width="300" alt="inserts"><br/>
+
+#### 2. Place batteries in holder and solder them in parallel
+
+<img src="lampyrida-led-lamp/assets/batteries_unsoldered.jpg" width="300" alt="batt_1"><br/>
+<img src="lampyrida-led-lamp/assets/batteries_soldered.jpg" width="300" alt="batt_2"><br/>
+
+***Note:*** Copper wire from UTP internet cable is recommended to connect batteries
+
+#### 2. Place battery module
+
+<img src="lampyrida-led-lamp/assets/battery_placed.jpg" width="300" alt="batt_2"><br/>
+
+***Note:*** Module should tightly fit and push it until you hear 'click'
+
+#### 3. Place switch button
+
+<img src="lampyrida-led-lamp/assets/button_placed_1.jpg" width="300" alt="button_1"><br/>
+<img src="lampyrida-led-lamp/assets/button_placed_2.jpg" width="300" alt="button_2"><br/>
+
+#### 4. Place PCB board and solder battery wires
+
+<img src="lampyrida-led-lamp/assets/board_placed.jpg" width="300" alt="board_1"><br/>
+<img src="lampyrida-led-lamp/assets/board_soldered.jpg" width="300" alt="board_2"><br/>
+
+#### 5. Check that battery charger works
+
+<img src="lampyrida-led-lamp/assets/charge_check.jpg" width="300" alt="charge"><br/>
+
+***Note:*** Additionally check that board works as expected by pushing switch button
+
+#### 6. Put lamp reflector and screw the screws
+
+<img src="lampyrida-led-lamp/assets/reflector_place.jpg" width="300" alt="refl"><br/>
+<img src="lampyrida-led-lamp/assets/screws_on_place.jpg" width="300" alt="screws"><br/>
 
 ---

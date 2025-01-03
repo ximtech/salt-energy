@@ -19,7 +19,8 @@
 typedef enum LedStatus {
     LED_POWER_OFF = 0,
     LED_MAX_POWER = 255,
-    LED_HALF_POWER = 128
+    LED_HALF_POWER = 128,
+    LED_MIN_POWER = 64
 } LedStatus;
 
 // The on/off state is stored in the variable. Usually all variables are initialized on reset, but we want this variable to retain its value
@@ -59,6 +60,9 @@ static void setLedMode() {
             ledMode = LED_HALF_POWER;
             break;
         case LED_HALF_POWER:
+            ledMode = LED_MIN_POWER;
+            break;
+        case LED_MIN_POWER:
             ledMode = LED_POWER_OFF;
             break;
         default:

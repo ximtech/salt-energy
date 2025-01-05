@@ -46,6 +46,7 @@ All project utilize one or many of this batteries
 - [Ptero Power Bank](#ptero-power-bank)
 - [Moskito Power Bank](#moskito-power-bank)
 - [Lampyrida LED Lamp](#lampyrida-led-lamp)
+- [Quazar Battery Pack](#quazar-battery-pack)
 
 
 ## Salt AA Battery
@@ -433,5 +434,13 @@ All that needs to assembly a single device:
 
 <img src="lampyrida-led-lamp/assets/reflector_place.jpg" width="300" alt="refl"><br/>
 <img src="lampyrida-led-lamp/assets/screws_on_place.jpg" width="300" alt="screws"><br/>
+
+---
+
+## Quazar Battery Pack
+
+Small but powerful battery module 12V 30Ah. Perfectly fit to store energy from solar panels
+
+
 
 ---

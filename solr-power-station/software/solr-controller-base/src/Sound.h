@@ -95,4 +95,4 @@
 void playStartupSound(uint8_t buzzerPin);
 void signalLowBattery(uint8_t buzzerPin);
 void signalCurrentTooHigh(uint8_t buzzerPin);
-void playErrorSound(uint8_t buzzerPin);
+void systemUpSound(uint8_t buzzerPin);

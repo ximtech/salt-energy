@@ -3,27 +3,28 @@
 #include "Sound.h"
 #include "ACS712.h"
 
+#define DEBUG_EN_PIN         9
 #define BUILD_IN_LED_PIN    13
-#define BUZZER_PIN          5
-#define LOAD_OUT_PIN        7
-#define COOLING_FAN_PIN     9
-#define SOURCE_VOLTAGE_PIN  A0
+#define BUZZER_PIN          10
+#define LOAD_OUT_PIN        11
+#define COOLING_FAN_PIN     12
 #define ACS_SENSOR_PIN      A1
+#define VOLTAGE_SENSOR_PIN  A0
 
-#define MCU_SUPPLY_VOLTAGE              4.61f
+#define MCU_SUPPLY_VOLTAGE              4.61f   // Manually measured value
 #define ADC_RESOLUTION                  1023.0f
 
 #define VOLTAGE_READ_COUNT              4
 #define MIN_CURRENT_THRESHOLD_VALUE     0.1f
 #define CURRENT_CORRECTION_COEFFICIENT  0.4f
-#define MAX_LOAD_CURRENT                1.5f    // 30.0f
+#define MAX_LOAD_CURRENT                1.5f    // FIXME: 30.0f
 #define MIN_BATTERY_VOLTAGE             9.9f    // 3.3V * 3 -> 0%
 #define BATTERY_RECOVERY_VOLTAGE       (10.8f - 0.4f)  // 3.61V * 3 -> 10% with correction
 #define CURRENT_OVERLOAD_TIMEOUT_MS     5000
 #define LOW_BATTERY_SIGNAL_COUNT        10
 
-#define CURRENT_VALUE_FOR_FAN_MAX_SPEED 1.0f    // 10.0f
-#define CURRENT_VALUE_FOR_FAN_MID_SPEED 0.5f    // 5.0f
+#define CURRENT_VALUE_FOR_FAN_MAX_SPEED 1.0f    // FIXME: 10.0f
+#define CURRENT_VALUE_FOR_FAN_MID_SPEED 0.5f    // FIXME: 5.0f
 /*
  * Two resistors divider of 30K and 7.5K
  *
@@ -62,7 +63,8 @@ void setup() {
     pinMode(LOAD_OUT_PIN, OUTPUT);
     pinMode(BUZZER_PIN, OUTPUT);
     pinMode(COOLING_FAN_PIN, OUTPUT);
-    pinMode(SOURCE_VOLTAGE_PIN, INPUT);
+    pinMode(DEBUG_EN_PIN, INPUT_PULLUP);
+    pinMode(VOLTAGE_SENSOR_PIN, INPUT);
 
     digitalWrite(LOAD_OUT_PIN, HIGH);   // disable output at startup
     outputRelayOff();
@@ -87,9 +89,12 @@ void setup() {
 
 void loop() {
 
+    bool isDebugEnabled = digitalRead(DEBUG_EN_PIN) == LOW; // check that debug jumper is set to GND
     float batteryVoltage = getPowerSupplyVoltage(VOLTAGE_READ_COUNT);
-    Serial.print("Battery V= ");
-    Serial.println(batteryVoltage, 3);
+    if (isDebugEnabled) {
+        Serial.print("Battery V= ");
+        Serial.println(batteryVoltage, 3);
+    }
 
     bool isLoadEnabled = digitalRead(LOAD_OUT_PIN) == LOW;
     if (isLoadEnabled && batteryVoltage <= MIN_BATTERY_VOLTAGE) {
@@ -106,14 +111,20 @@ void loop() {
         delay(500);    // battery is not charged yet, wait some time and return
         return;
     }
-    lowBatterySignalCounter = 0;
 
+    if (lowBatterySignalCounter != 0) {
+        systemUpSound(BUZZER_PIN); // battery charge is at least 10%
+        lowBatterySignalCounter = 0;
+    }
 
     float loadAmps = 0.0f;
     if (loadEnableTimeout == 0) {
+
         loadAmps = getLoadAmps(ACS712_CURRENT_SENSOR);
-        Serial.print("Load Amps= ");
-        Serial.println(loadAmps, 3);
+        if (isDebugEnabled) {
+            Serial.print("Load Amps= ");
+            Serial.println(loadAmps, 3);
+        }
 
         if (loadAmps > MAX_LOAD_CURRENT) {
             outputRelayOff();
@@ -122,6 +133,7 @@ void loop() {
             return;
         }
         outputRelayOn();
+        ledOff();
     }
 
     uint32_t currentMillis = millis();
@@ -132,25 +144,28 @@ void loop() {
         delay(500);    // wait some time before the next check
         return;
     }
-
     loadEnableTimeout = 0;
-    ledOff();
 
+    int16_t fanSpeed = 0;
     if (loadAmps >= CURRENT_VALUE_FOR_FAN_MAX_SPEED) {
-        setCoolingFanSpeed(255);
+        fanSpeed = 255;
 
     } else if (loadAmps >= CURRENT_VALUE_FOR_FAN_MID_SPEED) {
-        setCoolingFanSpeed(128);
+        fanSpeed = 128;
+    }
+    setCoolingFanSpeed(fanSpeed);
 
-    } else {
-        setCoolingFanSpeed(0);
+    if (isDebugEnabled) {
+        Serial.print("Fan Speed= ");
+        Serial.println(fanSpeed);
+        delay(1000);
     }
 }
 
 static float getPowerSupplyVoltage(uint16_t samplingCount) {
     float accumulatedValue = 0;
     for (uint16_t i = 0; i < samplingCount; i++) {
-        float adcValue = analogRead(SOURCE_VOLTAGE_PIN);
+        float adcValue = analogRead(VOLTAGE_SENSOR_PIN);
         float outVoltage = (adcValue * MCU_SUPPLY_VOLTAGE) / ADC_RESOLUTION;
         float dividerVoltage = outVoltage / (R2 / (R1 + R2));
         accumulatedValue += (dividerVoltage - correctionFactor);

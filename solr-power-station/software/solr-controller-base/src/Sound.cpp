@@ -32,9 +32,15 @@ void signalCurrentTooHigh(uint8_t buzzerPin) {
     delay(HIGH_CURRENT_TONE_DURATION_MS + HIGH_CURRENT_PAUSE_DURATION_MS);
 }
 
-void playErrorSound(uint8_t buzzerPin) {
-    tone(buzzerPin, 1000); // Send 1KHz sound signal...
-    delay(1000);        // ...for 1 sec
-    noTone(buzzerPin);     // Stop sound...
-    delay(1000);        // ...for 1sec
+void systemUpSound(uint8_t buzzerPin) {
+// Play a series of tones
+    tone(buzzerPin, 523, 200); // Play C5 for 200ms
+    delay(200);
+    tone(buzzerPin, 659, 200); // Play E5 for 200ms
+    delay(200);
+    tone(buzzerPin, 784, 200); // Play G5 for 200ms
+    delay(200);
+    tone(buzzerPin, 1047, 400); // Play C6 for 400ms (higher note)
+    delay(500);
+    noTone(buzzerPin); // Stop the tone
 }

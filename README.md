@@ -441,6 +441,73 @@ All that needs to assembly a single device:
 
 Small but powerful battery module 12V 30Ah. Perfectly fit to store energy from solar panels
 
+<img src="quazar-power-cell/assets/ready_device.jpg" width="600" alt="quazar_1">
 
+### Specification
+
+- Size: 221mm x 128mm x 45mm
+- Capacity: 24000 mAh
+- Battery count: 180
+- Battery type: [Flat battery](#1-flat-battery)
+
+Battery Charger Protection Board:
+
+<img src="quazar-power-cell/assets/bms.jpg" width="250" alt="bms_pcb_1">
+
+### Prerequisites
+
+<img src="quazar-power-cell/assets/assembly.jpg" width="300" alt="ptero_prereq">
+
+The project contains source models and `stl` directory with all required models for 3D printing.
+All that needs to assembly a single device:
+- 180x - Batteries (see [Specification](#specification))
+- 6x - M3 bolts 8-10mm
+- 12x - M3 brass inserts (8-10mm x 4.2mm)
+- 1x - BMS board
+- 1x -`quazar_body_15x12.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
+- 1x -`quazar_body_15x12.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
+
+***Additional:*** Nickel plated strip `0.2mm x 6-10mm` and uncoated copper wire `1mm` to solder batteries
+<img src="quazar-power-cell/assets/copper_wire" width="200" alt="wire">
+
+### Assembly
+
+#### 1. Set brass inserts in top and bottom of a battery body
+
+<img src="quazar-power-cell/assets/top_inserts.jpg" width="300" alt="inserts_1"><br/>
+<img src="quazar-power-cell/assets/bottom_inserts.jpg" width="300" alt="inserts_2"><br/>
+
+#### 2. Insert nickel plated strip as follows
+
+<img src="quazar-power-cell/assets/strip_placement.jpg" width="300" alt="strip_1"><br/>
+<img src="quazar-power-cell/assets/strip_placement2.jpg" width="300" alt="strip_2"><br/>
+
+#### 3. Tuck the nickel strip using flat screwdriver
+
+<img src="quazar-power-cell/assets/bms_contacts.jpg" width="300" alt="bms_contacts"><br/>
+
+#### 4. Place BMS PCB
+
+<img src="quazar-power-cell/assets/bms_placement.jpg" width="300" alt="bms_placement"><br/>
+
+#### 5. Place batteries as follows
+
+<img src="quazar-power-cell/assets/battery_placement.jpg" width="300" alt="battery_placement"><br/>
+
+#### 6. Solder batteries in parallel using copper wire
+
+<img src="quazar-power-cell/assets/wired_batteries.jpg" width="300" alt="wired_batteries"><br/>
+
+#### 7. Solder connected batteries to nickel strip according it polarity
+
+<img src="quazar-power-cell/assets/contacts_soldering.jpg" width="300" alt="contacts_soldering"><br/>
+
+#### 8. Check connections and measure voltage for each cell
+#### 9. Solder nickel strip ends to BMS board and check output voltage
+#### 10. Screw up the lid
+
+<img src="quazar-power-cell/assets/top_lid_placement.jpg" width="300" alt="top_lid_placement"><br/>
+
+#### 10. Charge battery and check it capacity
 
 ---

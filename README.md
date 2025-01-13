@@ -468,7 +468,7 @@ All that needs to assembly a single device:
 - 1x -`quazar_body_15x12.STL` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
 
 ***Additional:*** Nickel plated strip `0.2mm x 6-10mm` and uncoated copper wire `1mm` to solder batteries
-<img src="quazar-power-cell/assets/copper_wire" width="200" alt="wire">
+<img src="quazar-power-cell/assets/copper_wire.jpg" width="200" alt="wire">
 
 ### Assembly
 

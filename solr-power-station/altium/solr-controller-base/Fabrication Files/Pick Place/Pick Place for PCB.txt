@@ -4,9 +4,9 @@ C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-cont
 ========================================================================================================================
 File Design Information:
 
-Date:       26.01.25
-Time:       00:42
-Revision:   b3b11aa840cce6bafdffd4c3da383ba1c578e2d6
+Date:       31.01.25
+Time:       17:15
+Revision:   1fce7b8624936f8869e3b0de2083cd91fc260b6f
 Variant:    No variations
 Units used: mm
 
@@ -34,9 +34,9 @@ Q1         MMSS8050-L-TP      TopLayer MCCSEMI_SOT-23-3            60.0000      
 K1         SLA-12VDC-SL-C     TopLayer RELAY_SLA-12VDC-SL-C        32.6500      49.1500      360      "SUBMINATURE HIGH POWER RELAY"                                                                    
 J4         "HB9500 300V 30A"  TopLayer TE_5-1437648-7              13.5000      35.0000      270      "Connector Barrier Strip 2 Position 8.26mm Screw Straight Cable Mount 25 Amp Contact"             
 J3         "HB9500 300V 30A"  TopLayer TE_5-1437648-7              80.5000      35.0000      90       "Connector Barrier Strip 2 Position 8.26mm Screw Straight Cable Mount 25 Amp Contact"             
-J2         B2B-PH-K-S(LF)(SN) TopLayer JST_B2B-PH-K                54.2500      59.0500      270      "CONN HEADER VERT 2POS 2MM"                                                                       
-J1         B2B-PH-K-S(LF)(SN) TopLayer JST_B2B-PH-K                81.0000      59.0500      270      "CONN HEADER VERT 2POS 2MM"                                                                       
-IC1        DMG3406L-7         TopLayer DIODES_SOT-23-3             72.0000      53.2500      0        "MOSFET N-CH 30V 3.6A SOT23"                                                                      
+J2         B2B-PH-K-S(LF)(SN) TopLayer JST_B2B-XH-A(LF)(SN)        53.9600      58.8000      90       "Connector Header Through Hole 2 position 0.098 (2.50mm)"                                         
+J1         B2B-PH-K-S(LF)(SN) TopLayer JST_B2B-XH-A(LF)(SN)        80.5750      58.8000      90       "Connector Header Through Hole 2 position 0.098 (2.50mm)"                                         
+Q3         DMG3406L-7         TopLayer DIODES_SOT-23-3             72.0000      53.2500      0        "MOSFET N-CH 30V 3.6A SOT23"                                                                      
 D7         Red                TopLayer LED_0805_2012_RED           27.9500      14.0000      360      "LED RED CLEAR 0805 SMD"                                                                          
 D6         LTV-817S-TA        TopLayer LITEON_LTV-817              28.0000      21.7500      90       "OPTOISOLATR 5KV TRANSISTOR 4-SMD"                                                                
 D5         LL4148             TopLayer DIO_LL4148                  32.6500      30.7500      360      "Diode Standard 100 V 300mA Surface Mount SOD-80 MiniMELF"                                        

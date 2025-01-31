@@ -14,17 +14,9 @@ Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
 
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
-
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
-
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\features
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\attrlist
-
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
-
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\attrlist
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\features
 
@@ -66,21 +58,29 @@ Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_12\attrlist
 
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
 
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\attrlist
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\attrlist
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\attrlist
 
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
-
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\attrlist
-
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\attrlist
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\features
 
@@ -98,13 +98,13 @@ Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\attrlist
 
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
-
-Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\attrlist
-
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\features
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\attrlist
 
 Generated File : C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-controller-base\.\Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\features
 

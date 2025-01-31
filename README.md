@@ -5,7 +5,7 @@
 This project provides practical solutions for repurposing disposable vape batteries to power devices like power banks and other rechargeable electronics. 
 By transforming these short-lived products into useful, long-lasting devices, we aim to reduce electronic waste and extend the life cycle of valuable components.
 
-<img src="assets/waste-vapes.jpg" width="600" height="600" alt="waste">
+<img src="assets/waste-vapes.jpg" width="400" height="400" alt="waste">
 
 Through this project, you'll learn how to convert the batteries from disposable vapes into reliable power sources, contributing to a more sustainable future. 
 Whether you're an eco-conscious creator or a DIY enthusiast, this guide offers straightforward solutions for reducing waste and promoting energy efficiency.

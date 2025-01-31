@@ -515,7 +515,7 @@ All that needs to assembly a single device:
 
 ## Solr Power Station
 
-Portable and const efficient 300W power station.
+Portable and cost efficient 300W power station.
 
 <img src="solr-power-station/assets/solr_view.jpg" width="600" alt="solr_1">
 <img src="solr-power-station/assets/solr_weight.jpg" width="600" alt="solr_2">

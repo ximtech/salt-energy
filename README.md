@@ -263,13 +263,13 @@ Pocket-size power bank with build in flashlight
 
 #### Power Bank PCB
 
-The custom designed board is based on a cheap power bank IC `TP4333`.
+The custom designed board is based on a `TP4333` power bank IC.
 
 <img src="moskito-powerbank/assets/pcb_1.jpg" width="250" alt="pcb_3d">
 
 #### Flashlight PCB
 
-Flashlight board contains powerful LED and driver IC `CN5711`.
+Flashlight board contains `1W 3030` LED and driver IC `CN5711`.
 
 <img src="moskito-powerbank/assets/pcb_2.jpg" width="250" alt="pcb_3d">
 
@@ -368,7 +368,7 @@ Small and portable LED lamp with dimming feature
 
 #### LED lamp PCB
 
-The custom designed board is based on MCU (`Attiny13`), LED driver (`CN5711`) and charger (`TP4056`).
+The custom designed board is based on MCU (`Attiny13`), `1W 3030` LED with (`CN5711`) driver and charger (`TP4056`).
 
 <img src="lampyrida-led-lamp/assets/lamp_pcb.jpg" width="250" alt="pcb_3d">
 

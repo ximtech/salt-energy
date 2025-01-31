@@ -4,21 +4,21 @@ C:\Users\Stason\Desktop\Projects\salt-energy\solr-power-station\altium\solr-cont
 ========================================================================================================================
 File Design Information:
 
-Date:       10.01.25
-Time:       14:23
-Revision:   dccce422e34dd01bf4424e533ff5727459d6e9d5
+Date:       26.01.25
+Time:       00:42
+Revision:   b3b11aa840cce6bafdffd4c3da383ba1c578e2d6
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
-"R12","10 kOhms","TopLayer","RES_0805_2012","86.3000","19.6000","180","RES SMD 10K OHM 0.5% 1/8W 0805"
-"P1","Header 2","TopLayer","My_1X02","86.4042","13.2478","90","Header, 2-Pin"
+"R12","10 kOhms","TopLayer","RES_0805_2012","34.3500","13.6750","90","RES SMD 10K OHM 0.5% 1/8W 0805"
+"P1","Header 2","TopLayer","My_1X02","37.2500","12.7700","90","Header, 2-Pin"
 "R11","1 kOhms","TopLayer","RES_0805_2012","14.9050","12.0000","90","RES SMD 1K OHM 1% 1/8W 0805"
 "R10","1 kOhms","TopLayer","RES_0805_2012","70.7500","39.9320","270","RES SMD 1K OHM 1% 1/8W 0805"
 "D9","Red","TopLayer","LED_0805_2012_RED","17.3550","12.0000","90","LED RED CLEAR 0805 SMD"
 "D8","Red","TopLayer","LED_0805_2012_RED","68.3000","39.6000","270","LED RED CLEAR 0805 SMD"
 "U3","ACS712ELCTR30AT","TopLayer","SOIC127P600X175-8N","13.2500","18.7500","270","Current Sensor 30A 1 Channel Hall Effect, Open Loop Bidirectional 8-SOIC (0.154, 3.90mm Width)"
-"U2","Arduino Nano","TopLayer","MODULE_ARDUINO_NANO_A000005","61.7500","13.1200","90","ATSAMD21G18A Arduino Nano 33 IoT series ARMA® CortexA®-M0+ MCU 32-Bit Embedded Evaluation Board"
+"U2","Arduino Nano","TopLayer","MODULE_ARDUINO_NANO_A000005","61.7500","13.1200","270","ATSAMD21G18A Arduino Nano 33 IoT series ARMA® CortexA®-M0+ MCU 32-Bit Embedded Evaluation Board"
 "U1","Buzzer 12mm","TopLayer","My_Buzzer","54.2500","44.2500","90","5-12v small buzzer (12mm)"
 "R9","510 Ohms","TopLayer","RES_0805_2012","33.0000","23.5000","360","RES SMD 510 OHM 0.1% 1/8W 0805"
 "R8","1 kOhms","TopLayer","RES_0805_2012","33.0000","21.2250","180","RES SMD 1K OHM 1% 1/8W 0805"

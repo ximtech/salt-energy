@@ -450,7 +450,7 @@ Small but powerful battery module 12V 30Ah. Perfectly fit to store energy from s
 - Battery count: 180
 - Battery type: [Flat battery](#1-flat-battery)
 
-Battery Charger Protection Board:
+#### Battery Charger Protection Board:
 
 <img src="quazar-power-cell/assets/bms.jpg" width="250" alt="bms_pcb_1">
 
@@ -509,5 +509,128 @@ All that needs to assembly a single device:
 <img src="quazar-power-cell/assets/top_lid_placement.jpg" width="300" alt="top_lid_placement"><br/>
 
 #### 10. Charge battery and check it capacity
+
+---
+
+## Solr Power Station
+
+Portable and const efficient 300W power station.
+
+<img src="solr-power-station/assets/solr_view.jpg" width="600" alt="solr_1">
+<img src="solr-power-station/assets/solr_weight.jpg" width="600" alt="solr_2">
+
+### Features
+
+- Output: USB/USB-C with fast charge support
+- Output: 12V up to 30A. Can boil water in 20 min
+- Output: AC: 220V 60W
+- Input: 12V from solar panels
+
+### Tradeoffs
+
+- Low power AC output
+- LCD show only battery capacity and voltage, no power consumption monitoring
+
+***TODO:*** Implement custom DC to AC inverter and display to overcome such tradeoffs
+
+### Specification
+
+- Size: 237mm x 175mm x 140mm
+- Battery pack: [Quazar Battery](#quazar-battery-pack)
+
+### Solr Controller Board
+
+Arduino based board used to protect device and control cooling fan according to current consumption 
+
+<img src="solr-power-station/assets/controller_board.jpg" width="250" alt="mcu_pcb_1">
+
+### Prerequisites
+
+The project contains source models in `solidworks` directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
+All that needs to assembly a single device:
+- 1x - [Quazar Battery](#quazar-battery-pack)
+- 14x - M3 brass inserts `12-14mm x 4.2mm` (for 2x lid mounting to the body)
+- 14x - M3 bolts `12-14mm` (2x lid mounting)
+- 14x - M3 bolts `5-6mm` (ac inverter, solr controller, XT-60, and rubber pads mounting)
+- 2x - M3 bolts `10mm` (battery to body mounting)
+- 14x - M3 nuts (PCBs, pads, XT-60)
+- 2x - M3 washers `7mm` (battery to body mounting)
+- 2x - M4 bolts `5mm` (protection fuse mounting)
+- 6x - M4 bolts `20mm` (Hanger and Fan mounting)
+- 8x - M4 bolts `10mm` (AC sockets mounting)
+- 16x - M4 nuts
+- 2x - M5 nuts (fuse wire mounting)
+- 4x - M5 washers (Optionally: place it between crimp connections)
+- 2x - M8 bolts `30mm` (DC output wires mounting)
+- 4x - M8 nuts
+- 4x - M8 washers (Optionally: place it between crimp connections)
+- 7x - M8 round pre-insulated crimp terminals (ac inverter-2x, car socket inputs-2x and PCB-2x, XT-60(GND)-1x outputs)
+- 4x - M5 round pre-insulated crimp terminals(dc switch-2x, XT-60(+)-1x, Battery(+)-1x)
+- 4x - Pre-insulated fork crimp terminals (AWG16-14) `Blue`
+- 1x -`ps_back_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA, Adhesion: Brim***
+- 1x -`ps_body.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
+- 1x -`ps_front_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
+- 1x -`ps_hanger.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
+- 1x -`ps_label.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 100%, Supports: No, Filament material: PLA***
+
+***Additional:***
+- Copper wire Diameter: `3mm`, AWG: `8-9` (DC connections)
+- Copper wire Diameter: `1.5mm`, AWG: `14-15` (AC connections)
+
+### DC to AC converter board
+
+<img src="solr-power-station/assets/dc_ac_board.jpg" width="250" alt="inverter">
+
+- Count: 1
+
+### Battery capacity meter
+
+<img src="solr-power-station/assets/battery_capacity_meter.jpg" width="250" alt="voltmeter">
+
+***Appearance size:*** `61mm*40mm*22mm`
+- Count: 1
+
+### Additional overcurrent protection
+
+<img src="solr-power-station/assets/overcurrent_protection.jpg" width="250" alt="fuse">
+
+- Count: 1
+
+### AC output socket
+
+<img src="solr-power-station/assets/ac_socket.jpg" width="250" alt="ac_socket">
+
+- Count: 2
+
+### DC output socket
+
+<img src="solr-power-station/assets/dc_output.jpg" width="250" alt="dc_socket">
+
+- Count: 1
+
+### DC input socket
+
+<img src="solr-power-station/assets/dc_input.jpg" width="250" alt="dc_in_socket">
+
+- Count: 1
+
+### On/Off DC switch
+
+<img src="solr-power-station/assets/on_off_switch.jpg" width="250" alt="dc_switch">
+
+- Count: 1
+
+### Cooling fan
+
+<img src="solr-power-station/assets/cooling_fan.jpg" width="250" alt="fan">
+
+- Count: 1
+
+### Rubber pads
+
+<img src="solr-power-station/assets/rubber_pads.jpg" width="250" alt="fan">
+
+- Count: 4
 
 ---

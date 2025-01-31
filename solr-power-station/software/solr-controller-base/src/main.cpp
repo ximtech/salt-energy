@@ -11,20 +11,23 @@
 #define ACS_SENSOR_PIN      A1
 #define VOLTAGE_SENSOR_PIN  A0
 
-#define MCU_SUPPLY_VOLTAGE              4.61f   // Manually measured value
+#define MCU_SUPPLY_VOLTAGE              5.15f   // Manually measured value
 #define ADC_RESOLUTION                  1023.0f
 
 #define VOLTAGE_READ_COUNT              4
 #define MIN_CURRENT_THRESHOLD_VALUE     0.1f
 #define CURRENT_CORRECTION_COEFFICIENT  0.4f
-#define MAX_LOAD_CURRENT                1.5f    // FIXME: 30.0f
+#define MAX_LOAD_CURRENT                30.0f
 #define MIN_BATTERY_VOLTAGE             9.9f    // 3.3V * 3 -> 0%
-#define BATTERY_RECOVERY_VOLTAGE       (10.8f - 0.4f)  // 3.61V * 3 -> 10% with correction
+#define BATTERY_RECOVERY_VOLTAGE        10.8f  // 3.6V * 3 -> 10%
 #define CURRENT_OVERLOAD_TIMEOUT_MS     5000
 #define LOW_BATTERY_SIGNAL_COUNT        10
 
-#define CURRENT_VALUE_FOR_FAN_MAX_SPEED 1.0f    // FIXME: 10.0f
-#define CURRENT_VALUE_FOR_FAN_MID_SPEED 0.5f    // FIXME: 5.0f
+#define CURRENT_VALUE_FOR_FAN_MAX_SPEED 10.0f
+#define CURRENT_VALUE_FOR_FAN_MID_SPEED 5.0f
+#define FAN_SPEED_100_PERCENTS 255
+#define FAN_SPEED_50_PERCENTS  128
+#define FAN_SPEED_0_PERCENTS   0
 /*
  * Two resistors divider of 30K and 7.5K
  *
@@ -146,12 +149,12 @@ void loop() {
     }
     loadEnableTimeout = 0;
 
-    int16_t fanSpeed = 0;
+    int16_t fanSpeed = FAN_SPEED_0_PERCENTS;
     if (loadAmps >= CURRENT_VALUE_FOR_FAN_MAX_SPEED) {
-        fanSpeed = 255;
+        fanSpeed = FAN_SPEED_100_PERCENTS;
 
     } else if (loadAmps >= CURRENT_VALUE_FOR_FAN_MID_SPEED) {
-        fanSpeed = 128;
+        fanSpeed = FAN_SPEED_50_PERCENTS;
     }
     setCoolingFanSpeed(fanSpeed);
 
@@ -175,7 +178,7 @@ static float getPowerSupplyVoltage(uint16_t samplingCount) {
 }
 
 static float getLoadAmps(ACS712 acs) {
-    float amps = (acs.mA_DC(10) / 1000) + CURRENT_CORRECTION_COEFFICIENT;
+    float amps = abs((acs.mA_DC(10) / 1000) + CURRENT_CORRECTION_COEFFICIENT);
     return (amps > MIN_CURRENT_THRESHOLD_VALUE) ? amps : 0.0f;
 }
 

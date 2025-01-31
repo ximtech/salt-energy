@@ -47,6 +47,7 @@ All project utilize one or many of this batteries
 - [Moskito Power Bank](#moskito-power-bank)
 - [Lampyrida LED Lamp](#lampyrida-led-lamp)
 - [Quazar Battery Pack](#quazar-battery-pack)
+- [Solr Power Station](#solr-power-station)
 
 
 ## Salt AA Battery

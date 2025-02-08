@@ -225,6 +225,291 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=B2B-XH-A_LF__SN_.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=.\Fabrication Files\BOM\Bill of Materials-solr-controller-base.xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Fabrication Files\BOM\Bill of Materials-solr-controller-base.xls
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\board_outline\features
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_4\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_5\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_6\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_7\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_8\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_9\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_10\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_11\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\mechanical_12\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbd_notes\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\pcbm_notes\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\rout\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=.\Fabrication Files\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=.\Fabrication Files\NC Drill\PCB.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=.\Fabrication Files\NC Drill\PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=.\Fabrication Files\Gerber\PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GM32767
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=.\Fabrication Files\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=.\Fabrication Files\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=.\Fabrication Files\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=.\Fabrication Files\ODB\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=.\Fabrication Files\Gerber\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=.\Fabrication Files\ExportSTEP\PCB.step
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=.\Fabrication Files\NC Drill\PCB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=.\Fabrication Files\Pick Place\Pick Place for PCB.csv
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=.\Fabrication Files\Pick Place\Pick Place for PCB.txt
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\drill\tools
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=.\Fabrication Files\ODB\odb\steps\pcb\layers\rout\tools
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -238,7 +523,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -344,7 +629,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -416,7 +701,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -438,7 +723,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -510,7 +795,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -547,7 +832,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -727,7 +1012,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -771,7 +1056,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -832,7 +1117,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Samsung ML-2160 Series (USB001)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files

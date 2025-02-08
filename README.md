@@ -84,7 +84,8 @@ The heart of this battery is custom designed board with charger(`TP4057`), prote
 
 <img src="salt-battery/assets/prereq.jpg" width="300" alt="battery_prereq">
 
-The project contains `solidworks` source models and `stl` directory with all required models for 3D printing.
+The project contains source models in `solidworks` directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
 All that needs to assembly a single device:
 - 1x - Battery (see [Specification](#specification))
 - 2x - Battery contacts (***Only positive contact required***). Can be found in `Aliexpress`, `Ebay` or `Amazon` by description: `Battery AA AAA Battery Positive to Negative Spring Plate Set`
@@ -170,7 +171,8 @@ Can be found in `Aliexpress` or `Amazon` by number: `H961-U` or by description: 
 
 <img src="ptero-powerbank/assets/ptero_prereq.jpg" width="300" alt="ptero_prereq">
 
-The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
+The project contains source models in a root directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
 All that needs to assembly a single device:
 - 23x - Batteries (see [Specification](#specification))
 - 1x - Power Bank PCB
@@ -284,7 +286,8 @@ Flashlight board contains `1W 3030` LED and driver IC `CN5711`.
 
 <img src="moskito-powerbank/assets/moskit_prereq.jpg" width="300" alt="moskito_prereq">
 
-The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
+The project contains source models in `solidworks` directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
 All that needs to assembly a single device:
 - 5x - Batteries (see `Specification`)
 - 1x - Power Bank PCB
@@ -383,7 +386,8 @@ The custom designed board is based on MCU (`Attiny13`), `1W 3030` LED with (`CN5
 
 <img src="lampyrida-led-lamp/assets/prereq.jpg" width="300" alt="lampyrida_prereq">
 
-The project contains `SolidWorks` source models and `stl` directory with all required models for 3D printing.
+The project contains source models in `solidworks` directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
 All that needs to assembly a single device:
 - 4x - Batteries (see `Specification`)
 - 1x - Led lamp PCB (soldered and programmed)
@@ -459,7 +463,8 @@ Small but powerful battery module 12V 30Ah. Perfectly fit to store energy from s
 
 <img src="quazar-power-cell/assets/assembly.jpg" width="300" alt="ptero_prereq">
 
-The project contains source models and `stl` directory with all required models for 3D printing.
+The project contains source models in a root directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
 All that needs to assembly a single device:
 - 180x - Batteries (see [Specification](#specification))
 - 6x - M3 bolts 8-10mm

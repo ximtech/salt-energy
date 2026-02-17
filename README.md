@@ -520,7 +520,7 @@ All that needs to assembly a single device:
 
 ## Solr Power Station
 
-Portable and cost efficient 300W power station.
+Portable and cost-efficient 300W power station.
 
 <img src="solr-power-station/assets/solr_view.jpg" width="600" alt="solr_1">
 <img src="solr-power-station/assets/solr_weight.jpg" width="600" alt="solr_2">
@@ -528,115 +528,173 @@ Portable and cost efficient 300W power station.
 ### Features
 
 - Output: USB/USB-C with fast charge support
-- Output: 12V up to 30A. Can boil water in 20 min
-- Output: AC: 220V 60W
-- Input: 12V from solar panels
+- Output: 12V up to 30A
+- Output: AC: 220V up to 360W
+- Input: 12V from solar panels or DC charger
 
 ### Tradeoffs
 
-- Low power AC output
-- LCD show only battery capacity and voltage, no power consumption monitoring
-
-***TODO:*** Implement custom DC to AC inverter and display to overcome such tradeoffs
+- LCD shows only battery capacity and voltage. Power consumption monitoring in debug mode only
+- No embedded `MPPT` controller for a solar panel, input needs to use external one
 
 ### Specification
 
 - Size: 237mm x 175mm x 140mm
 - Battery pack: [Quazar Battery](#quazar-battery-pack)
-
-### Solr Controller Board
-
-Arduino based board used to protect device and control cooling fan according to current consumption 
-
-<img src="solr-power-station/assets/controller_board.jpg" width="250" alt="mcu_pcb_1">
+- Controller board: [Pure Sinus Board](https://github.com/ximtech/pure-sinus)
 
 ### Prerequisites
 
+<img src="solr-power-station/assets/prereq_ver_1.jpg" width="500" alt="mcu_pcb_1">
+
 The project contains source models in `solidworks` directory with all required models for 3D printing.
 Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
+
 All that needs to assembly a single device:
-- 1x - [Quazar Battery](#quazar-battery-pack)
-- 14x - M3 brass inserts `12-14mm x 4.2mm` (for 2x lid mounting to the body)
-- 14x - M3 bolts `12-14mm` (2x lid mounting)
-- 14x - M3 bolts `5-6mm` (ac inverter, solr controller, XT-60, and rubber pads mounting)
-- 2x - M3 bolts `10mm` (battery to body mounting)
-- 14x - M3 nuts (PCBs, pads, XT-60)
-- 2x - M3 washers `7mm` (battery to body mounting)
-- 2x - M4 bolts `5mm` (protection fuse mounting)
-- 6x - M4 bolts `20mm` (Hanger and Fan mounting)
-- 8x - M4 bolts `10mm` (AC sockets mounting)
-- 16x - M4 nuts
-- 2x - M5 nuts (fuse wire mounting)
-- 4x - M5 washers (Optionally: place it between crimp connections)
-- 2x - M8 bolts `30mm` (DC output wires mounting)
-- 4x - M8 nuts
-- 4x - M8 washers (Optionally: place it between crimp connections)
-- 7x - M8 round pre-insulated crimp terminals (ac inverter-2x, car socket inputs-2x and PCB-2x, XT-60(GND)-1x outputs)
-- 4x - M5 round pre-insulated crimp terminals(dc switch-2x, XT-60(+)-1x, Battery(+)-1x)
-- 4x - Pre-insulated fork crimp terminals (AWG16-14) `Blue`
-- 1x -`ps_back_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA, Adhesion: Brim***
-- 1x -`ps_body.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
-- 1x -`ps_front_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
-- 1x -`ps_hanger.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15-25%, Supports: No, Filament material: PLA***
-- 1x -`ps_label.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 100%, Supports: No, Filament material: PLA***
 
-***Additional:***
-- Copper wire Diameter: `3mm`, AWG: `8-9` (DC connections)
-- Copper wire Diameter: `1.5mm`, AWG: `14-15` (AC connections)
+1. **1x** -`ps_front_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15–20%, Supports: Yes, Filament material: PLA***
+    1. 1x -`ps_label.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 100%, Supports: No, Filament material: PLA***
+2. **1x** -`ps_back_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15–20%, Supports: Yes, Filament material: PLA***
+3. **1x** -`ps_body.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15–20%, Supports: No, Filament material: PLA***
+4. **1x** - [Battery capacity meter](#battery-capacity-meter)
+5. **2x** - [AC output socket](#ac-output-socket)
+6. **1x** -`ps_hanger.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15–20%, Supports: No, Filament material: PLA***
+7. **2x** - M4 bolts `20mm` (Hanger mounting)
+   1. **2x** - M4 nuts (Hanger mounting)
+8. **1x** - [Cooling Fan](#cooling-fan)
+9. **1x** - [DC input socket](#dc-input-socket)
+   1. **2x** - Pre-insulated fork crimp terminals `M4`
+10. **1x** - [Quazar Battery](#quazar-battery-pack)
+    1. **2x** - Copper wire `3mm`, AWG: `8-9` (soldered to battery BMS board)
+    2. **2x** - Pre-insulated fork crimp terminals `M4` (battery connection to the main board)
+11. **1x** - `JST` to `JST` (2.54mm) wire connecting capacity meter to the main board
+12. **2x** - Copper wire Diameter: `1.5mm`, AWG: `14-15` (AC socket connections)
+13. **8x** - M4 bolts `10mm` (AC sockets mounting)
+    1. **8x** - M4 nuts (AC sockets mounting)
+    2. **8x** - M4 washers (AC sockets mounting)
+14. **4x** - [Rubber pads](#rubber-pads)
+    1. **4x** - M3 bolts `5-6mm` (rubber pads mounting)
+    2. **4x** - M3 nuts (rubber pads mounting)
+15. **1x** - [Pure Sinus Board](https://github.com/ximtech/pure-sinus)
+16. **4x** - M4 bolts `20mm` (Fan mounting)
+    1. **4x** - M4 nuts (Fan mounting)
+    2. **4x** - M4 washers (Fan mounting)
+17. **2x** - M3 bolts `5-6mm` (XT-60 connectors mounting)
+    1. **2x** - M3 nuts (XT-60 connectors mounting)
+    2. **2x** - M3 washers (XT-60 connectors mounting)
+18. **1x** - [On/Off switch](#onoff-dc-switch)
+    1. **1x** - `JST` (2.54mm) wire connecting switch to the main board
+19. 1**4x** - M3 brass inserts `12-14mm x 4.2mm` (for 2x lid mounting to the body)
+    1. 1**4x** - M3 bolts `12-14mm` (for 2x lid mounting to the body)
+20. **6x** - M3 bolts `10mm` (battery to body mounting)
+    1. **6x** - M3 washers (battery to body mounting)
+21. **4x** - M3 brass inserts `4-5mm x 4.2mm` (main board mounting)
+    1. **4x** - M3 bolts `5-6mm` (main board mounting)
+22. **1x** - [DC output socket](#dc-output-socket)
+    1. **2x** - Copper wire `3mm`, AWG: `8-9` (DC connections)
+    2. **2x** - Pre-insulated fork crimp terminals `M4`
+23. **1x** - `JST` 3-pin (2.54mm) with copper wire `1.5mm`, AWG: `14-15` (AC connection to main board)
 
-### DC to AC converter board
-
-<img src="solr-power-station/assets/dc_ac_board.jpg" width="250" alt="inverter">
-
-- Count: 1
-
-### Battery capacity meter
+#### Battery capacity meter
 
 <img src="solr-power-station/assets/battery_capacity_meter.jpg" width="250" alt="voltmeter">
 
 ***Appearance size:*** `61mm*40mm*22mm`
-- Count: 1
 
-### Additional overcurrent protection
-
-<img src="solr-power-station/assets/overcurrent_protection.jpg" width="250" alt="fuse">
-
-- Count: 1
-
-### AC output socket
+#### AC output socket
 
 <img src="solr-power-station/assets/ac_socket.jpg" width="250" alt="ac_socket">
 
-- Count: 2
-
-### DC output socket
+#### DC output socket
 
 <img src="solr-power-station/assets/dc_output.jpg" width="250" alt="dc_socket">
 
-- Count: 1
-
-### DC input socket
+#### DC input socket
 
 <img src="solr-power-station/assets/dc_input.jpg" width="250" alt="dc_in_socket">
 
-- Count: 1
-
-### On/Off DC switch
+#### On/Off DC switch
 
 <img src="solr-power-station/assets/on_off_switch.jpg" width="250" alt="dc_switch">
 
-- Count: 1
-
-### Cooling fan
+#### Cooling fan
 
 <img src="solr-power-station/assets/cooling_fan.jpg" width="250" alt="fan">
 
-- Count: 1
-
-### Rubber pads
+#### Rubber pads
 
 <img src="solr-power-station/assets/rubber_pads.jpg" width="250" alt="fan">
 
-- Count: 4
+### Assembly
+
+#### 1. Set brass inserts to the main body (3, 19, 21)
+
+- From both sides of the body, six inserts for front lid mounting and eight inserts for back lid mounting
+- <img src="solr-power-station/assets/asm_body.jpg" width="300" alt="body_inserts"><br/>
+- Also set PCB board mounting inserts - `4x`
+
+#### 2. Set rubber pads to the bottom of the body (14)
+
+- Set `M3` nuts to the bottom of the body
+- <img src="solr-power-station/assets/asm_body_pads_nuts.jpg" width="300" alt="asm_body_pads_nuts"><br/>
+- Set rubber pads and screw them with `M3` bolts
+- <img src="solr-power-station/assets/asm_body_pads_mount.jpg" width="300" alt="asm_body_pads"><br/>
+
+#### 3. Handle mounting (6, 7)
+
+- Set `M4` nuts to the handle holes as follows:
+- <img src="solr-power-station/assets/asm_handle_nuts.jpg" width="300" alt="asm_handle_nuts"><br/>
+- Place the handle and screw it with `M4` bolts
+- <img src="solr-power-station/assets/asm_handle_mount.jpg" width="300" alt="asm_handle_mount"><br/>
+
+#### 4. Screw cooling fan and PCB board (8, 15, 16)
+
+- Screw fan to the body with `M4` bolts
+- <img src="solr-power-station/assets/asm_fan.jpg" width="250" alt="asm_fan"><br/>
+- Screw PCB board to the body with `M3` bolts and connect fan as follows:
+- <img src="solr-power-station/assets/asm_pcb.jpg" width="300" alt="asm_pcb"><br/>
+
+#### 5. Battery pack installation (10, 20)
+
+- Place the battery pack to the body. From the front side of the body, battery pack should be set as follows:
+- <img src="solr-power-station/assets/asm_battery_1.jpg" width="300" alt="asm_battery_1"><br/>
+- Screw battery pack with `M3` bolts from bottom of the body, also remember to put washers
+- <img src="solr-power-station/assets/asm_battery_2.jpg" width="300" alt="asm_battery_2"><br/>
+- **Note:** Do not connect battery pack to the PCB board yet, it will be done after lid assembly
+- **Note:** Temporarily insulate battery connections with tape to avoid short circuit during assembly
+
+#### 6. Front lid assembly (1, 4, 5, 11, 12, 13, 23, 22)
+
+- Place all components to the front lid as follows:
+- <img src="solr-power-station/assets/asm_front_lid.jpg" width="300" alt="asm_front_lid"><br/>
+- Wires should be connected as follows:
+- <img src="solr-power-station/assets/asm_front_lid_wiring.jpg" width="300" alt="asm_front_lid_wiring"><br/>
+
+#### 7. Back lid assembly (2, 9, 17, 18)
+
+- Place all components to the back lid as follows:
+- <img src="solr-power-station/assets/asm_back_lid.jpg" width="300" alt="asm_back_lid"><br/>
+- Screw XT-60 connector with `M3` bolts, also remember to put washers
+- **Note:** Turn switch off before connecting it to the PCB board
+
+#### 8. Connect front and back lid wires to the main board
+
+- Connect front lid wires to the main (car socket, capacity meter, AC output):
+- <img src="solr-power-station/assets/asm_front_wiring.jpg" width="300" alt="asm_front_wiring"><br/>
+- Connect back lid wires to the main board (DC input socket and on/off switch):
+- <img src="solr-power-station/assets/asm_back_wiring.jpg" width="300" alt="asm_back_wiring"><br/>
+- Connect battery pack wires and DC input to the PCB board
+- <img src="solr-power-station/assets/asm_lid_connected.jpg" width="300" alt="asm_lid_connected"><br/>
+
+### 9. Screw up the lids (19.1)
+
+- Place front and back lid to the body and screw them with `M3` bolts
+
+### 10. Finally, check that all work as expected
+
+- Turn on the switch and wait for startup sound,
+- Then check that fan is on for a short time
+- Also check that DC and AC outputs are working
+- Finally, check that battery capacity meter shows the correct voltage and USB outputs work as expected
 
 ---

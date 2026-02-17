@@ -545,7 +545,7 @@ Portable and cost-efficient 300W power station.
 
 ### Prerequisites
 
-<img src="solr-power-station/assets/prereq_ver_1.jpg" width="500" alt="mcu_pcb_1">
+<img src="solr-power-station/assets/prereq_ver_1.jpg" width="800" alt="mcu_pcb_1">
 
 The project contains source models in `solidworks` directory with all required models for 3D printing.
 Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool

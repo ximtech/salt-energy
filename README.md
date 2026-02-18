@@ -535,6 +535,7 @@ Portable and cost-efficient 300W power station.
 ### Tradeoffs
 
 - LCD shows only battery capacity and voltage. Power consumption monitoring in debug mode only
+- No control buttons, only ON/OFF switch for the whole device, no separate control for outputs
 - No embedded `MPPT` controller for a solar panel, input needs to use external one
 
 ### Specification
@@ -696,5 +697,17 @@ All that needs to assembly a single device:
 - Then check that fan is on for a short time
 - Also check that DC and AC outputs are working
 - Finally, check that battery capacity meter shows the correct voltage and USB outputs work as expected
+
+---
+
+## Solr Power Station V2
+
+### TODO
+
+- The Next version of the device will contain an LCD with power consumption monitoring and control buttons, remove on/off switch
+- Replace [Battery capacity meter](#battery-capacity-meter) with a custom solution
+- USB output with quick charge support with up to 45W power each (1x USB-C and 2x USB-A)
+- Remove one of the AC output sockets for additional space
+- Additional external battery pack connection port with support hot swapping support
 
 ---

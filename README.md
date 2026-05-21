@@ -94,10 +94,10 @@ All that needs to assembly a single device:
     - Length: 9mm（0.35in), Wide: 8mm（0.31in）
 - 1x -`main-board` -> ***Soldered***
 - 1x -`usb-board` -> ***Soldered***
-- 1x -`battery_aa_case.STL` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***
-- 1x -`battery_aa_lid.STL` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***
+- 1x -`Rect_AA_case.SLDPRT` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***
+- 1x -`Rect_AA_cover.SLDPRT` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: No, Filament material: PLA***
   
-***Additional:*** Some wires and epoxy or adhesive(B-7000) glue required
+***Additional:*** Some wires and epoxy or adhesive(B-7000) or low-temperature glue required
 
 ### Assembly
 
@@ -133,17 +133,22 @@ All that needs to assembly a single device:
 
 <img src="salt-battery/assets/conn_soldering.jpg" width="300" alt="conn_soldering">
 
-#### 7. Check that charger works and battery output 1.5V
+#### 7. Check that charger works and battery output is 1.5V
 
 - <img src="salt-battery/assets/test.jpg" width="300" alt="test">
 - <img src="salt-battery/assets/charge.jpg" width="300" alt="charge">
 
-#### 8. Glue up battery lid
+**Note:** Fully charge battery, check current and LED light status change
 
-- <img src="salt-battery/assets/glue_1.jpg" width="300" alt="glue_1">
-- <img src="salt-battery/assets/glue_2.jpg" width="300" alt="glue_2">
+#### 8. Use adhesive glue or low temperature glue to seal contacts
 
-#### 9. Fully charge battery
+- <img src="salt-battery/assets/pole_seal.jpg" width="300" alt="pole_seal">
+
+#### 9. Set battery lid
+
+1. <img src="salt-battery/assets/lid_placement_1.jpg" width="300" alt="lid_placement_1">
+2. <img src="salt-battery/assets/lid_placement_2.jpg" width="300" alt="lid_placement_2">
+3. <img src="salt-battery/assets/lid_placement_3.jpg" width="300" alt="lid_placement_3">
 
 ---
 

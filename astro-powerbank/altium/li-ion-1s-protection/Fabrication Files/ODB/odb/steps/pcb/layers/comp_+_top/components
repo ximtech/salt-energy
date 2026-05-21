@@ -1,0 +1,110 @@
+UNITS=INCH
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 1 0.0846457 0.3208661 270 N P+ 3MMx3.5MM ;0=1,1=0.0000,5=0
+TOP 0 0.0787402 0.3228346 270 N 4 1 1
+#
+# CMP 1
+CMP 2 0.5068898 -0.2450787 270 N P- 3MMx3.5MM ;0=1,1=0.0000,5=0
+TOP 0 0.0787402 0.0708661 270 N 1 6 1
+#
+# CMP 2
+CMP 3 0.4625984 0.3169291 270 N J2 3MMx3.5MM ;0=1,1=0.0000,5=0
+TOP 0 0.5511811 0.3228346 270 N 4 3 1
+#
+# CMP 3
+CMP 6 0.4094488 0.1299213 180 N R1 1_kOhms ;0=1,1=0.0177,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.seielect.com/catalog/sei-rncf.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0603DTC1K00/1707978'
+PRP Composition 'Thin Film'
+PRP Device_Package '0603 (1608 Metric)'
+PRP Features 'Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.022_ (0.55mm)'
+PRP id '21542'
+PRP LastUpdated '2023-11-05T20:36:09.117'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Minimum_Order '1'
+PRP Number_Of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0603 (1608 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'RNCF0603DTC1K00'
+PRP PartId '83802'
+PRP Power_(Watts) '0.167W, 1/6W'
+PRP Price '0.01'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '1 kOhms'
+PRP Series 'RNCF'
+PRP Size_/_Dimension '0.061_ L x 0.031_ W (1.55mm x 0.80mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0603'
+PRP Supplier_Part_Number_1 '738-RNCF0603DTC1K00CT-ND'
+PRP Temperature_Coefficient '±50ppm/°C'
+PRP Tolerance '±0.5%'
+PRP Value '1 kOhms'
+TOP 0 0.4350394 0.1299213 90 N 4 2 1
+TOP 1 0.3838583 0.1299213 90 N 2 1 2
+#
+# CMP 4
+CMP 0 0.4094488 0.2362205 90 N C1 0.1__F ;0=1,1=0.0453,5=0
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1 µF'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf'
+PRP ComponentLink2Description 'DigiKey Link'
+PRP ComponentLink2URL 'https://www.digikey.com/en/products/detail/yageo/CC0805MRX7R9BB104/5884281'
+PRP Device_Package '0805 (2012 Metric)'
+PRP id '18'
+PRP LastUpdated '2023-01-03T20:10:55.763'
+PRP Lifecycle_Status 'Active'
+PRP Manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP Packaging 'TapeAndReel'
+PRP Part_Number 'CC0805MRX7R9BB104'
+PRP Part_Status 'Active'
+PRP PartId '2475'
+PRP Price '0.02'
+PRP Series 'CC'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-4351-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.95mm)'
+PRP Tolerance '±20%'
+PRP Value '0.1 µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 0.4094488 0.2677166 0 N 3 2 1
+TOP 1 0.4094488 0.2047245 0 N 2 2 2
+#
+# CMP 5
+CMP 5 0.2598425 0.1968504 270 N U1 XB7608A ;0=1,1=0.0335,5=0
+TOP 0 0.332559 0.1654331 270 N 2 0 1
+TOP 1 0.332559 0.1862992 270 N 3 1 2
+TOP 2 0.332559 0.2280315 270 N 3 3 3
+TOP 3 0.1888582 0.218189 270 N 1 4 4
+TOP 4 0.1888582 0.1752756 270 N 1 3 5
+#
+# CMP 6
+CMP 4 0.4724409 0.0787401 270 N J6 3MMx3.5MM ;0=1,1=0.0000,5=0
+TOP 0 0.5511811 0.0708661 270 N 1 5 1
+#

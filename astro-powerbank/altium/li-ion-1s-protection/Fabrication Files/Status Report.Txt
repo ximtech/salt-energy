@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [li-ion-1s-protection.PrjPcb]
+   Generated File[Bill of Materials-li-ion-1s-protection.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:06:23 On 30.04.2026

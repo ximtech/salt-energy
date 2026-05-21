@@ -1,0 +1,37 @@
+UNITS=INCH
+H optimize n staggered n
+$0 $NONE$
+$1 BAT+
+$2 BAT-
+$3 NetC1_2
+$4 OUT-
+#
+#Netlist points
+#
+1 0.002 0.4350394 0.1299213 T e e staggered 0 0 0
+1 0.002 0.0787402 0.3228346 T e e staggered 0 0 0
+1 0.019685 0.3149606 0.3425197 B e e staggered 0 0 0
+1 0.002 0.5511811 0.3228346 T e e staggered 0 0 0
+2 0.002 0.4094488 0.2677166 T e e staggered 0 0 0
+2 0.002 0.332559 0.2280315 T e e staggered 0 0 0
+2 0.002 0.332559 0.1862992 T e e staggered 0 0 0
+2 0.019685 0.3149606 0.0511811 B e e staggered 0 0 0
+3 0.002 0.4094488 0.2047245 T e e staggered 0 0 0
+3 0.002 0.3838583 0.1299213 T e e staggered 0 0 0
+3 0.002 0.332559 0.1654331 T e e staggered 0 0 0
+4 0.002 0.1888582 0.218189 T e e staggered 0 0 0
+4 0.002 0.1888582 0.1752756 T e e staggered 0 0 0
+4 0.002 0.0787402 0.0708661 T e e staggered 0 0 0
+4 0.002 0.5511811 0.0708661 T e e staggered 0 0 0
+4 0.0068898 0.0393701 0.2125984 B e e staggered 0 0 0 v
+4 0.0068898 0.0826771 0.2125984 B e e staggered 0 0 0 v
+4 0.0068898 0.1259842 0.2125984 B e e staggered 0 0 0 v
+4 0.0068898 0.0393701 0.1732283 B e e staggered 0 0 0 v
+4 0.0068898 0.0826771 0.1732283 B e e staggered 0 0 0 v
+4 0.0068898 0.1259842 0.1732283 B e e staggered 0 0 0 v
+4 0.0068898 0.5905512 0.1732282 B e e staggered 0 0 0 v
+4 0.0068898 0.5472441 0.1732282 B e e staggered 0 0 0 v
+4 0.0068898 0.5039371 0.1732282 B e e staggered 0 0 0 v
+4 0.0068898 0.5905512 0.2125983 B e e staggered 0 0 0 v
+4 0.0068898 0.5472441 0.2125983 B e e staggered 0 0 0 v
+4 0.0068898 0.5039371 0.2125983 B e e staggered 0 0 0 v

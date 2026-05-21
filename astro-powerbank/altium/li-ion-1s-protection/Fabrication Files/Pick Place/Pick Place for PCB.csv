@@ -1,0 +1,20 @@
+Altium Designer Pick and Place Locations
+C:\Users\Stason\Desktop\Projects\salt-energy\astro-powerbank\altium\li-ion-1s-protection\.\Fabrication Files\Pick Place\Pick Place for PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       30.04.26
+Time:       15:06
+Revision:   cc968d566251722861ae25041c3f5950e2435ed3
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"P+","3MMx3.5MM","TopLayer","PAD_WITHOUT_HOLE_3X3.5MM","2.0000","8.2000","90","High: 3mm Length: 3.5mm"
+"P-","3MMx3.5MM","TopLayer","PAD_WITHOUT_HOLE_3X3.5MM","2.0000","1.8000","90","High: 3mm Length: 3.5mm"
+"J2","3MMx3.5MM","TopLayer","PAD_WITHOUT_HOLE_3X3.5MM","14.0000","8.2000","90","High: 3mm Length: 3.5mm"
+"R1","1 kOhms","TopLayer","RES_0603_1608","10.4000","3.3000","180","RES SMD 1K OHM 0.5% 1/6W 0603"
+"C1","0.1 µF","TopLayer","CAP_0805_2012","10.4000","6.0000","270","CAP CER 0.1UF 50V X7R 0805"
+"U1","XB7608A","TopLayer","PCB_-_LEADED_-_XYSEMI_CPC5","6.6220","4.9970","90","CPC-5 Battery Management IC"
+"J6","3MMx3.5MM","TopLayer","PAD_WITHOUT_HOLE_3X3.5MM","14.0000","1.8000","90","High: 3mm Length: 3.5mm"

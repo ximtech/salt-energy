@@ -606,8 +606,8 @@ All that needs to assembly a single device:
 23. **1x** - `JST` 3-pin (2.54mm) with copper wire `1.5mm`, AWG: `14-15` (AC connection to main board)
 24. **1x** - `ps_buttons_pcb_holder.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 15–20%, Supports: No, Filament material: PLA***
 25. **2x** - Buttons
-    1. **1x** - `ps_ac_button.SLDPRT` -> ***Resolution: 0.2, Infill: 100%, Supports: No, Filament material: PLA***
-    2. **1x** - `ps_dc_button.SLDPRT` -> ***Resolution: 0.2, Infill: 100%, Supports: No, Filament material: PLA***
+    1. **1x** - `ps_ac_button.SLDPRT` -> ***Resolution: 0.1, Infill: 100%, Supports: No, Filament material: PLA***
+    2. **1x** - `ps_dc_button.SLDPRT` -> ***Resolution: 0.1, Infill: 100%, Supports: No, Filament material: PLA***
 26. **1x** - [Solr Button Module](https://github.com/ximtech/pure-sinus/tree/main/solr-button-module)
 27. **2x** - M3 brass inserts `3mm x 4.2mm` (button module mounting to a front panel)
 28. **2x** - M3 bolts `6-8mm` (button module mounting to a front panel)

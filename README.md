@@ -361,6 +361,150 @@ Connect signal `EN` wire to battery `+` to check that flashlight works<br/>
 
 ---
 
+## Astro Power Bank
+
+Powerful `6S` power bank with bidirectional USB-C and up to 140W for output and input
+
+<img src="astro-powerbank/assets/astro_powerbank_view.jpg" width="600" alt="astro_powerbank">
+
+### Specification
+
+- Size: 142mm x 62mm x 51mm
+- Capacity: 14400 mAh
+- Architecture: 6S6P 53.28Wh
+- Battery count: 36
+- Battery type: [Flat battery](#1-flat-battery)
+
+### Prerequisites
+
+<img src="astro-powerbank/assets/astro_prereq.jpg" width="800" alt="astro_prereq">
+
+The project contains source models in `solidworks` directory with all required models for 3D printing.
+Solidworks format `.SLDPRT` can be easily converted to `.stl` using online tools or using CAD plugins in slicer tool
+
+All that needs to assembly a single device:
+
+1. **1x** - `astro_body.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 20–25%, Supports: No, Filament material: PLA***
+2. **2x** - `astro_flat_battery_6x_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 20–25%, Supports: No, Filament material: PLA***
+3. **6x** - `astro_flat_battery_6x_holder.SLDPRT` -> ***Resolution: 0.2, Walls: 1, Infill: 100%, Supports: No, Filament material: PLA***
+4. **2x** - Pair `XT-30` PCB connectors
+   - **1x** - `XT-30` Male connector, Rated current: 15A
+   - **1x** - `XT-30` Female connector, Rated current: 15A
+5. **1x** - `JST` 7 pin connector PH `2.0mm`
+    - **6x** - `JST` 2.0mm crimp terminals
+6. **4x** - `M3` bolts 6-8mm
+   - **4x** - `M3` brass inserts 8mm x 4.2mm
+7. **2x** - `M2.5` bolts 4mm (for button mounting)
+   - **2x** - `M2.5` brass inserts 3mm x 3.5mm
+8. **4x** - `M2.5` bolts 4mm (for PCB mounting)
+   - **4x** - `M2.5` brass inserts 3mm x 3.5mm
+9. **6x** - Pre soldered battery module protection boards (see `altium -> li-ion-1s-protection` directory)
+10. **1x** - Pre soldered [Button module](#button-module)
+11. **1x** - `astro_top_lid.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 20–25%, Supports: Yes, Filament material: PLA***
+12. **1x** - `astro_pcb_holder.SLDPRT` -> ***Resolution: 0.2, Walls: 2–3, Infill: 20–100%, Supports: No, Filament material: PLA***
+13. **1x** - `6S 1A` Lithium battery balancer board. **Dimensions:** 55mm x 45mm
+14. **1x** - `140W` Fast-Charging Power Module for 6S Lithium Battery with PD3.1 Type-C. **Dimensions:** 59mm x 38mm
+15. **1x** - Dual sided stick tape
+16. **2x** - Button to PCB connection wires. Micro JST `1.25mm` 2 pin `1x` - male and `1x`- female connector
+17. **2x** - Battery wires, pure copper. Outer diameter: `2mm`, `15cm` length. `1.5mm²` cross-section area.
+18. **1x** - `astro_label.SLDPRT` -> ***Resolution: 0.2, Walls: 1, Infill: 100%, Supports: No, Filament material: PLA***
+    - **1x** - `astro_led_window.SLDPRT` -> ***Resolution: 0.1, Walls: 1-2, Infill: 2%, Supports: No, Filament material: Transparent PLA***
+    - **1x** - `astro_push_button.SLDPRT` -> ***Resolution: 0.1, Walls: 1, Infill: 100%, Supports: Yes, Filament material: PLA***
+19. **1x** - NTC thermistor `10K` with wires
+20. **1x** - Adhesive glue or insulation tape to fix up battery modules
+21. **1x** - Solid uncoated copper wire 0.6mm, for battery connections
+22. **1x** - Nickel strip `0.2mm x 6-8mm` for battery modules connections
+23. **6x** - Balancer board connector wires, `20cm` length
+24. **36x** - Batteries (see [Specification](#specification))
+25. **2x** - Shrink tubes for battery wires, `15-20mm` length, `3-4mm` diameter
+
+#### Button module
+
+- Standard 1-bit button module with 2 pin connector. Can be found in `Aliexpress` by description: `1 2 3 4 5 6 bit Independent Button Module`
+- <img src="astro-powerbank/assets/astro_button_module.jpg" width="250" alt="astro_button_module">
+
+- The Button needs to be replaced with a new one 
+- <img src="astro-powerbank/assets/astro_replacement_button.jpg" width="250" alt="astro_replacement_button">
+
+### Assembly
+
+#### 1. Set brass inserts to the power bank body, top lid and PCB's holder
+
+<img src="astro-powerbank/assets/parts_inserts.jpg" width="300" alt="parts_inserts"><br/>
+
+Inserts from the list above are used as follows:
+- Body: `No.6`
+- Top lid: `No.7`
+- PCB holder: `No.8`
+
+#### 2. Top lid assembly
+
+- Place the LED indicator window and push button (`No.18`) to the top lid
+- <img src="astro-powerbank/assets/top_lid_button_led.jpg" width="300" alt="top_lid_button_led"><br/>
+- Solder connection wires (`No.16`) to the button module as follows and screw it up with `M2.5` bolts (`No.7`)
+- <img src="astro-powerbank/assets/button_wiring.jpg" width="300" alt="button_wiring"><br/>
+- Use a small amount of adhesive glue for logo label (`No.18`) and place it to the top lid
+- <img src="astro-powerbank/assets/top_lid_logo_placement.jpg" width="300" alt="top_lid_logo_placement"><br/>
+
+#### 3. Battery module assembly
+
+- Place `6x` batteries to each holder as follows:
+- <img src="astro-powerbank/assets/single_battery_cell.jpg" width="300" alt="single_battery_cell"><br/>
+- Solder battery connections and board
+- <img src="astro-powerbank/assets/battery_connection.jpg" width="300" alt="battery_connection"><br/>
+- <img src="astro-powerbank/assets/battery_board_polarity.jpg" width="300" alt="battery_board_polarity"><br/>
+- <img src="astro-powerbank/assets/all_batt_cells.jpg" width="300" alt="all_batt_cells"><br/>
+- Place NTC and battery lid. Set the lid to the second battery cell, but without NTC:
+- <img src="astro-powerbank/assets/batt_ntc_lid_1.jpg" width="300" alt="batt_ntc_lid_1"><br/>
+- <img src="astro-powerbank/assets/batt_ntc_lid_2.jpg" width="300" alt="batt_ntc_lid_2"><br/>
+- <img src="astro-powerbank/assets/batt_ntc_lid_3.jpg" width="300" alt="batt_ntc_lid_3"><br/>
+- Same connects battery cells with two groups of three cells
+- <img src="astro-powerbank/assets/batt_cell_connect.jpg" width="300" alt="batt_cell_connect"><br/>
+- <img src="astro-powerbank/assets/batt_cell_connected.jpg" width="300" alt="batt_cell_connected"><br/>
+- Glue layer two on the top of battery layer one assembly
+- <img src="astro-powerbank/assets/batt_bottom_layer_glue.jpg" width="300" alt="batt_bottom_layer_glue"><br/>
+- <img src="astro-powerbank/assets/batt_layers_connected.jpg" width="300" alt="batt_layers_connected"><br/>
+- <img src="astro-powerbank/assets/batt_layers_side_view.jpg" width="300" alt="batt_layers_side_view"><br/>
+- Set battery end terminals using a nickel strip as follows
+- <img src="astro-powerbank/assets/batt_terminals.jpg" width="300" alt="batt_terminals"><br/>
+- Next, crimp `6(B+) + 1(B-)` wires with `JST 2.0mm` terminals and set to `7p` connector
+- <img src="astro-powerbank/assets/batt_balance_wires.jpg" width="300" alt="batt_balance_wires"><br/>
+- <img src="astro-powerbank/assets/batt_balance_wires_with_connector.jpg" width="300" alt="batt_balance_wires_with_connector"><br/>
+- Connect balancer wires to battery pack as follows
+- <img src="astro-powerbank/assets/batt_balance_wires_soldered.jpg" width="300" alt="batt_balance_wires_soldered"><br/>
+- Finally, solder battery pack terminal wires
+- <img src="astro-powerbank/assets/batt_wire_terminals.jpg" width="300" alt="batt_wire_terminals"><br/>
+
+#### 4. Place battery pack to power bank body
+
+- <img src="astro-powerbank/assets/batt_install_to_body.jpg" width="300" alt="batt_install_to_body"><br/>
+
+#### 5. Place PCB holder, connect balancer board
+
+- <img src="astro-powerbank/assets/balancer_board_install.jpg" width="300" alt="balancer_board_install"><br/>
+
+**Note:** Use two-sided sticky tape to fix up balance board. Check each battery cell voltage on balancer board connector
+
+#### 6. Prepare charger module PCB
+
+1. Solder `XT-30` input connector
+2. Remove `10kOhm` temperature sensor resistor
+3. Solder `43kOhm` resistor to `BAT+`
+4. Solder button connector wires
+
+- <img src="astro-powerbank/assets/power_board_prep.jpg" width="300" alt="power_board_prep"><br/>
+
+#### 7. Solder battery XT-30 connector and NTC wires to board
+
+- <img src="astro-powerbank/assets/final_connector_soldering.jpg" width="300" alt="final_connector_soldering"><br/>
+
+#### 8. Connect wires and screw the top lid
+
+- <img src="astro-powerbank/assets/arrange_wires.jpg" width="300" alt="arrange_wires"><br/>
+- <img src="astro-powerbank/assets/top_lid_placement.jpg" width="300" alt="top_lid_placement"><br/>
+
+---
+
 ## Lampyrida led lamp
 
 Small and portable LED lamp with dimming feature
@@ -369,7 +513,7 @@ Small and portable LED lamp with dimming feature
 
 ### Specification
 
-- Size: 60mm x 78mm
+- Size: 60mm x 61mm x 51mm
 - Capacity: 1600 mAh
 - Battery count: 4
 - Battery type: [Round small battery](#3-round-small-battery)
@@ -527,7 +671,7 @@ All that needs to assembly a single device:
 
 Portable and cost-efficient 300W power station.
 
-[//]: # (<img src="solr-power-station/assets/solr_view.jpg" width="600" alt="solr_1">)
+<img src="solr-power-station/assets/solr_view.jpg" width="600" alt="solr_1">
 
 ### Features
 
@@ -552,7 +696,7 @@ Portable and cost-efficient 300W power station.
 
 ### Prerequisites
 
-<img src="solr-power-station/assets/prereq_ver_1.png" width="800" alt="mcu_pcb_1">
+<img src="solr-power-station/assets/prereq_ver_1.png" width="800" alt="prereq_ver_1">
 
 **Note:** Photo does not show all required components, please refer to an assembly list below for a complete list of components.
 

@@ -2,20 +2,6 @@
 FileName = PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D27
-    D28
-*************************************************************
-
-*************************************************************
 Generating : Route Guide
       File : PCB.GM32767
 
@@ -30,6 +16,28 @@ Generating : Bottom Courtyard
       File : PCB.GM16
 
     Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : PCB.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : PCB.GM14
+
+    Adding Layer      : Bottom 3D Body
 
 
 Used DCodes :
@@ -57,19 +65,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : PCB.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D27
-*************************************************************
-
-*************************************************************
 Generating : PCBM Notes
       File : PCB.GM2
 
@@ -92,27 +87,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : PCB.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-*************************************************************
-
-*************************************************************
 Generating : Keep-Out Layer
       File : PCB.GKO
 
@@ -130,59 +104,6 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : PCB.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-    D24
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : PCB.GM14
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : PCB.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D29
-    D30
 *************************************************************
 
 *************************************************************
@@ -220,6 +141,85 @@ Used DCodes :
     D17
     D18
     D19
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PCB.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : PCB.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
 *************************************************************
 
 *************************************************************
